@@ -6,6 +6,7 @@
 .navbar {
   margin-bottom: 0px;
   border-radius: 0 !important;
+  margin-bottom: 0px !important;
  }
 .navbar-inverse {
 	 background-color: $primary-color !important;
@@ -24,7 +25,7 @@
   z-index: 9999 !important;
 }
 
-.affix~.container-fluid {
+.affix~.nav-fix-managemant {
   position: relative;
   top: 50px;
 }
