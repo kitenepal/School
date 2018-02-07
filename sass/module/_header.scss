@@ -1,0 +1,33 @@
+.top-bar{
+	background: #d0d0d0;
+	padding-top: 10px;
+}
+
+.navbar {
+  margin-bottom: 0px;
+  border-radius: 0 !important;
+ }
+.navbar-inverse {
+	 background-color: $primary-color !important;
+	 border-color: $primary-color !important;
+	 .navbar-nav>li>a {
+	 		color: #fff !important;
+	}
+	.navbar-brand {
+			color: #fff !important;
+	}
+}
+
+.affix {
+  top: 0;
+  width: 100%;
+  z-index: 9999 !important;
+}
+
+.affix~.container-fluid {
+  position: relative;
+  top: 50px;
+}
+.extra{
+	margin-top: 1000px;
+}
