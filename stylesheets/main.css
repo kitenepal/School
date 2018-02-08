@@ -2,3 +2,37 @@
 * {
   font-family: Pacifico;
 }
+
+/* line 1, ../sass/module/_slider.scss */
+.carousel-caption {
+  position: relative;
+  left: 0%;
+  right: 0%;
+  bottom: 0px;
+  z-index: 10;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  color: #000;
+  text-shadow: none;
+}
+/* line 11, ../sass/module/_slider.scss */
+.carousel-caption.btn {
+  text-shadow: none;
+}
+
+/* line 17, ../sass/module/_slider.scss */
+.carousel {
+  position: relative;
+}
+
+/* line 21, ../sass/module/_slider.scss */
+.controllers {
+  position: absolute;
+  top: 0px;
+}
+
+/* line 26, ../sass/module/_slider.scss */
+.carousel-control.left,
+.carousel-control.right {
+  background-image: none;
+}
