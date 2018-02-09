@@ -1,6 +1,44 @@
+@import url("https://fonts.googleapis.com/css?family=Indie+Flower|Ubuntu");
 /* line 2, ../sass/base/_base.scss */
 * {
-  font-family: Pacifico;
+  font-family: Indie Flower;
+}
+
+/* line 1, ../sass/module/_header.scss */
+.md--topbar {
+  background: #ccc;
+  padding: 7px;
+}
+
+/* line 5, ../sass/module/_header.scss */
+.navbar {
+  border-color: #4ea5fa;
+  border-radius: 0px;
+  background: #4ea5fa;
+  color: #fff;
+}
+
+/* line 11, ../sass/module/_header.scss */
+.navbar-inverse .navbar-brand {
+  color: #fff;
+}
+
+/* line 14, ../sass/module/_header.scss */
+.navbar-inverse .navbar-nav > li > a {
+  color: #fff;
+}
+
+/* line 17, ../sass/module/_header.scss */
+.affix {
+  top: 0;
+  width: 100%;
+  z-index: 9999 !important;
+}
+
+/* line 23, ../sass/module/_header.scss */
+.affix ~ .nav-management {
+  position: relative;
+  top: 50px;
 }
 
 /* line 1, ../sass/module/_slider.scss */
@@ -20,19 +58,36 @@
   text-shadow: none;
 }
 
-/* line 17, ../sass/module/_slider.scss */
+/* line 15, ../sass/module/_slider.scss */
 .carousel {
   position: relative;
 }
 
-/* line 21, ../sass/module/_slider.scss */
+/* line 18, ../sass/module/_slider.scss */
 .controllers {
   position: absolute;
   top: 0px;
 }
 
-/* line 26, ../sass/module/_slider.scss */
+/* line 22, ../sass/module/_slider.scss */
 .carousel-control.left,
 .carousel-control.right {
   background-image: none;
+}
+
+/* line 1, ../sass/module/_readme.scss */
+.custom-btn {
+  padding: 5px 15px;
+  cursor: pointer;
+  background: transparent;
+  outline: none;
+  border-radius: 5px;
+  border-color: #4ea5fa;
+  color: #4ea5fa;
+  transition: all 0.3s ease;
+}
+/* line 10, ../sass/module/_readme.scss */
+.custom-btn:active {
+  transform: scale(0.9);
+  box-shadow: 0px 0px 5px 2px;
 }

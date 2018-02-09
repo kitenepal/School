@@ -1,0 +1,26 @@
+.md--topbar{
+    background: #ccc;
+    padding: 7px;
+}
+.navbar {
+    border-color: $primary-color;
+    border-radius: 0px;
+    background: $primary-color;
+    color: #fff;
+}
+.navbar-inverse .navbar-brand {
+    color: #fff;
+}
+.navbar-inverse .navbar-nav>li>a{
+    color: #fff;
+}
+.affix {
+    top: 0;
+    width: 100%;
+    z-index: 9999 !important;
+}
+
+.affix~.nav-management{
+    position: relative;
+    top: 50px;
+}
