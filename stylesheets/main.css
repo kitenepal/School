@@ -16,29 +16,53 @@
   border-radius: 0px;
   background: #4ea5fa;
   color: #fff;
+  margin-bottom: 0px;
 }
 
-/* line 11, ../sass/module/_header.scss */
+/* line 12, ../sass/module/_header.scss */
 .navbar-inverse .navbar-brand {
   color: #fff;
 }
 
-/* line 14, ../sass/module/_header.scss */
+/* line 15, ../sass/module/_header.scss */
 .navbar-inverse .navbar-nav > li > a {
   color: #fff;
 }
 
-/* line 17, ../sass/module/_header.scss */
+/* line 18, ../sass/module/_header.scss */
 .affix {
   top: 0;
   width: 100%;
   z-index: 9999 !important;
 }
 
-/* line 23, ../sass/module/_header.scss */
-.affix ~ .nav-management {
+/* line 24, ../sass/module/_header.scss */
+.affix ~ .navfix-management {
   position: relative;
-  top: 50px;
+  top: 60px;
+}
+
+/* line 28, ../sass/module/_header.scss */
+.carousel-caption {
+  text-align: left;
+}
+/* line 30, ../sass/module/_header.scss */
+.carousel-caption p {
+  font-weight: bold;
+}
+
+/* line 35, ../sass/module/_header.scss */
+.md--heading {
+  color: #1be2fb;
+}
+/* line 37, ../sass/module/_header.scss */
+.md--heading span {
+  color: #f58a20;
+}
+
+/* line 41, ../sass/module/_header.scss */
+.md--fullwidth {
+  padding: 0px;
 }
 
 /* line 1, ../sass/module/_slider.scss */
@@ -87,7 +111,26 @@
   transition: all 0.3s ease;
 }
 /* line 10, ../sass/module/_readme.scss */
+.custom-btn:hover {
+  text-decoration: underline;
+}
+/* line 13, ../sass/module/_readme.scss */
 .custom-btn:active {
   transform: scale(0.9);
   box-shadow: 0px 0px 5px 2px;
+}
+
+/* line 1, ../sass/module/_about.scss */
+.about {
+  background: #4ea5fa;
+}
+/* line 3, ../sass/module/_about.scss */
+.about p {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+/* line 7, ../sass/module/_about.scss */
+.about .custom-btn {
+  border-color: #000;
+  color: #000;
 }

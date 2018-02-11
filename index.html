@@ -7,7 +7,7 @@
 	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <link rel="stylesheet" type="text/css" href="stylesheets/main.css">
+	<link rel="stylesheet" type="text/css" href="stylesheets/main.css">
 </head>
 <body>
 <!-- contact nav-->
@@ -26,7 +26,7 @@
 
 <!-- end contact navbar -->
 	<!-- navbar -->
-<nav class="navbar navbar-inverse" data-spy="affix" data-offset-top="697">
+<nav class="navbar navbar-inverse" data-spy="affix" data-offset-top="40">
   <div class="container-fluid">
     <div class="navbar-header">
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -53,40 +53,40 @@
 <!-- end of navbar-->
 
 				<!-- slider-->
-	<div id="carousel-example-generic nav-management" class="carousel slide" data-ride="carousel">
+<div id="carousel-example-generic" class="carousel slide navfix-management" data-ride="carousel">
 <!-- Wrapper for slides -->
 <div class="carousel-inner">
 <div class="item active">
-  <div class="holder col-sm-8">
+  <div class="holder col-sm-8 md--fullwidth">
     <img class="img-responsive" src="image/slide1.jpg" alt="...">
   </div>
   <div class="col-sm-4">
     <div class="carousel-caption">
-        <h2>Slide 1</h2>
+        <h2 class="md--heading">Drawing <span>Program</span></h2>
         <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.</p>
         <button class="custom-btn"><span>Read More</span></button>   
     </div>
   </div>
 </div>
 <div class="item">
-  <div class="holder col-sm-8">
-    <img class="img-responsive" src="http://placehold.it/1000x400" alt="...">
+  <div class="holder col-sm-8 md--fullwidth">
+    <img class="img-responsive" src="image/slide2.jpg" alt="...">
   </div>
   <div class="col-sm-4">
     <div class="carousel-caption">
-        <h2>Slide 2</h2>
+        <h2 class="md--heading">Drawing <span>Program</span></h2>
         <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.</p>
         <button class="custom-btn"><span>Read More</span></button>   
     </div>
   </div>
 </div>
 <div class="item">
-  <div class="holder col-sm-8">
-    <img class="img-responsive" src="http://placehold.it/1000x400" alt="...">
+  <div class="holder col-sm-8 md--fullwidth">
+    <img class="img-responsive" src="image/slide3.jpg" alt="...">
   </div>
   <div class="col-sm-4">
     <div class="carousel-caption">
-        <h2>Slide 3</h2>
+        <h2 class="md--heading">Drawing <span>Program</span></h2>
         <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.</p>
         <button class="custom-btn"><span>Read More</span></button>   
     </div>
@@ -109,15 +109,24 @@
   </ol> 
 </div>
 </div>
-
 <!-- end slide-->
-<script>
-	$(window).bind("load resize slid.bs.carousel", function() {
-  var imageHeight = $(".active .holder").height();
-  $(".controllers").height( imageHeight );
-  console.log("Slid");
-});
-        </script>
-
+<section id="about" class="about navfix-management">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-12">
+				<h2 class="md--heading">About <span>Us</span></h2>
+			</div>
+			<div class="col-sm-8">
+				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum.
+				</p>
+				<button class="custom-btn"><span>Read More</span></button> 
+			</div>
+			<div class="col-sm-4">
+				<img class="img-responsive" src="image/about.jpg">
+			</div>
+		</div>
+	</div>
+</section>
+<script type="text/javascript" src="js/slider.js"></script>
 </body>
 </html>
