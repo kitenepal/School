@@ -42,25 +42,16 @@
   top: 60px;
 }
 
-/* line 28, ../sass/module/_header.scss */
-.carousel-caption {
-  text-align: left;
-}
-/* line 30, ../sass/module/_header.scss */
-.carousel-caption p {
-  font-weight: bold;
-}
-
-/* line 35, ../sass/module/_header.scss */
+/* line 29, ../sass/module/_header.scss */
 .md--heading {
   color: #1be2fb;
 }
-/* line 37, ../sass/module/_header.scss */
+/* line 31, ../sass/module/_header.scss */
 .md--heading span {
   color: #f58a20;
 }
 
-/* line 41, ../sass/module/_header.scss */
+/* line 35, ../sass/module/_header.scss */
 .md--fullwidth {
   padding: 0px;
 }
@@ -99,6 +90,32 @@
   background-image: none;
 }
 
+/* line 26, ../sass/module/_slider.scss */
+.carousel-caption {
+  text-align: left;
+}
+/* line 28, ../sass/module/_slider.scss */
+.carousel-caption p {
+  font-weight: bold;
+}
+
+@media screen and (min-width: 767px) and (max-width: 960px) {
+  /* line 35, ../sass/module/_slider.scss */
+  .carousel-caption h2 {
+    padding-top: 0px;
+    margin-top: 0px;
+  }
+  /* line 39, ../sass/module/_slider.scss */
+  .carousel-caption p {
+    font-size: 0.9em;
+  }
+}
+@media screen and (max-width: 765px) {
+  /* line 46, ../sass/module/_slider.scss */
+  .carousel-inner > .item {
+    padding-bottom: 20px;
+  }
+}
 /* line 1, ../sass/module/_readme.scss */
 .custom-btn {
   padding: 5px 15px;
@@ -134,8 +151,59 @@
   border-color: #000;
   color: #000;
 }
+/* line 11, ../sass/module/_about.scss */
+.about .img-responsive {
+  margin: 10px 0px;
+}
 
 /* line 1, ../sass/module/_activities.scss */
 .activities {
   background: url(../image/activities_illusion.png) repeat;
+}
+
+/* line 2, ../sass/module/_footer.scss */
+footer .back-cover {
+  background: url(../image/contact.jpg) 0px 1px;
+  background-size: cover;
+}
+/* line 6, ../sass/module/_footer.scss */
+footer h3 {
+  color: #4ea5fa;
+}
+/* line 9, ../sass/module/_footer.scss */
+footer ul, footer ol {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+  color: #fff;
+}
+/* line 14, ../sass/module/_footer.scss */
+footer ul a, footer ol a {
+  color: #fff;
+}
+/* line 18, ../sass/module/_footer.scss */
+footer p {
+  color: #fff;
+}
+/* line 21, ../sass/module/_footer.scss */
+footer .container > .row > div:nth-of-type(4) {
+  padding-bottom: 50px;
+}
+/* line 24, ../sass/module/_footer.scss */
+footer .copyright {
+  background: #4ea5fa;
+  padding: 6px;
+}
+
+@media screen and (max-width: 450px) {
+  /* line 31, ../sass/module/_footer.scss */
+  footer .back-cover {
+    background: url(../image/contact.jpg) -300px 0px;
+    background-size: auto;
+  }
+}
+/* line 1, ../sass/module/_contact.scss */
+.contact {
+  background: #ddd;
+  padding-bottom: 20px;
 }

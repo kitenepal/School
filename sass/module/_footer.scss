@@ -1,0 +1,35 @@
+footer{
+	.back-cover{
+		background: url(../image/contact.jpg) 0px 1px;
+		background-size: cover;
+	}
+	h3{
+		color: $primary-color;		
+	}
+	ul,ol{
+		list-style: none;
+		margin: 0px;
+		padding: 0px;
+		color: #fff;
+		a{
+			color: #fff;
+		}
+	}
+	p{
+		color: #fff;
+	}
+	.container > .row > div:nth-of-type(4){
+		padding-bottom:50px;
+	}
+	.copyright{
+		background: $primary-color;
+		padding: 6px;
+	}
+}
+
+@media screen and (max-width: 450px) {
+	footer .back-cover{
+		background: url(../image/contact.jpg) -300px 0px;
+		background-size: auto;
+	}
+}
