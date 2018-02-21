@@ -9,53 +9,68 @@
   background: #ccc;
   padding: 7px;
 }
+/* line 4, ../sass/module/_header.scss */
+.md--topbar iframe {
+  width: 130px;
+  height: 20px;
+  float: left;
+}
 
-/* line 5, ../sass/module/_header.scss */
+/* line 10, ../sass/module/_header.scss */
 .navbar {
   border-color: #4ea5fa;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  -ms-border-radius: 0px;
   border-radius: 0px;
   background: #4ea5fa;
   color: #fff;
   margin-bottom: 0px;
 }
 
-/* line 12, ../sass/module/_header.scss */
+/* line 17, ../sass/module/_header.scss */
 .navbar-inverse .navbar-brand {
   color: #fff;
 }
 
-/* line 15, ../sass/module/_header.scss */
+/* line 20, ../sass/module/_header.scss */
 .navbar-inverse .navbar-nav > li > a {
   color: #fff;
 }
 
-/* line 18, ../sass/module/_header.scss */
+/* line 23, ../sass/module/_header.scss */
 .affix {
   top: 0;
   width: 100%;
   z-index: 9999 !important;
 }
 
-/* line 24, ../sass/module/_header.scss */
+/* line 29, ../sass/module/_header.scss */
 .affix ~ .navfix-management {
   position: relative;
   top: 60px;
 }
 
-/* line 29, ../sass/module/_header.scss */
+/* line 34, ../sass/module/_header.scss */
 .md--heading {
   color: #1be2fb;
 }
-/* line 31, ../sass/module/_header.scss */
+/* line 36, ../sass/module/_header.scss */
 .md--heading span {
   color: #f58a20;
 }
 
-/* line 35, ../sass/module/_header.scss */
+/* line 40, ../sass/module/_header.scss */
 .md--fullwidth {
   padding: 0px;
 }
 
+@media screen and (max-width: 270px) {
+  /* line 45, ../sass/module/_header.scss */
+  .md--topbar iframe {
+    width: 80px;
+  }
+}
 /* line 1, ../sass/module/_slider.scss */
 .carousel-caption {
   position: relative;
@@ -122,9 +137,14 @@
   cursor: pointer;
   background: transparent;
   outline: none;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
   border-radius: 5px;
   border-color: #4ea5fa;
   color: #4ea5fa;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
 /* line 10, ../sass/module/_readme.scss */
@@ -134,6 +154,8 @@
 /* line 13, ../sass/module/_readme.scss */
 .custom-btn:active {
   transform: scale(0.9);
+  -webkit-box-shadow: 0px 0px 5px 2px;
+  -moz-box-shadow: 0px 0px 5px 2px;
   box-shadow: 0px 0px 5px 2px;
 }
 
@@ -206,4 +228,132 @@ footer .copyright {
 .contact {
   background: #ddd;
   padding-bottom: 20px;
+}
+
+/* line 1, ../sass/module/_team.scss */
+.team {
+  padding-bottom: 10px;
+}
+
+/* line 4, ../sass/module/_team.scss */
+.profile {
+  margin-top: 15px;
+}
+
+/* line 7, ../sass/module/_team.scss */
+.profile h1 {
+  font-weight: bold;
+  font-size: 20px;
+  margin: 10px 0 0 0;
+}
+
+/* line 12, ../sass/module/_team.scss */
+.profile h2 {
+  font-size: 14px;
+  font-weight: lighter;
+  margin-top: 5px;
+}
+
+/* line 17, ../sass/module/_team.scss */
+.profile .img-box {
+  opacity: 1;
+  display: block;
+  position: relative;
+}
+
+/* line 22, ../sass/module/_team.scss */
+.profile .img-box:after {
+  content: "";
+  opacity: 0;
+  background-color: rgba(0, 0, 0, 0.75);
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+}
+
+/* line 32, ../sass/module/_team.scss */
+.img-box ul {
+  position: absolute;
+  z-index: 2;
+  bottom: 50px;
+  text-align: center;
+  width: 100%;
+  padding-left: 0px;
+  height: 0px;
+  margin: 0px;
+  opacity: 0;
+}
+
+/* line 43, ../sass/module/_team.scss */
+.profile .img-box:after, .img-box ul, .img-box ul li {
+  -webkit-transition: all 0.5s ease-in-out 0s;
+  -moz-transition: all 0.5s ease-in-out 0s;
+  transition: all 0.5s ease-in-out 0s;
+}
+
+/* line 46, ../sass/module/_team.scss */
+.img-box ul i {
+  font-size: 20px;
+  letter-spacing: 10px;
+}
+
+/* line 50, ../sass/module/_team.scss */
+.img-box ul li {
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  border: 1px solid #4ea5fa;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+  margin: 2px;
+  padding: 5px;
+  display: inline-block;
+}
+
+/* line 60, ../sass/module/_team.scss */
+.img-box a {
+  color: #fff;
+}
+
+/* line 63, ../sass/module/_team.scss */
+.img-box:hover:after {
+  opacity: 1;
+}
+
+/* line 66, ../sass/module/_team.scss */
+.img-box:hover ul {
+  opacity: 1;
+}
+
+/* line 69, ../sass/module/_team.scss */
+.img-box ul a {
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  -moz-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+/* line 72, ../sass/module/_team.scss */
+.img-box a:hover li {
+  border-color: #fff;
+  color: #f58a20;
+}
+
+/* line 76, ../sass/module/_team.scss */
+.profile a {
+  color: #4ea5fa;
+}
+
+/* line 79, ../sass/module/_team.scss */
+.profile a:hover {
+  text-decoration: none;
+  color: #4ea5fa;
+}
+
+/* line 83, ../sass/module/_team.scss */
+.profile i.red {
+  color: #4ea5fa;
 }
