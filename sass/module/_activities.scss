@@ -1,4 +1,95 @@
 .activities{
 	background: url(../image/activities_illusion.png) repeat;
+	padding-top: $scroll-space;
+	padding-bottom: 15px;
 }
 
+.tabbed {
+	height: 450px;
+	color: #fff;
+}
+
+label{
+	margin-bottom: 0px; 
+}
+.tabbed > input {
+  display: none;
+}
+
+.tabbed > label {
+  display: block;
+  float: left;
+  padding: 12px 20px;
+  margin-right: 5px;
+  cursor: pointer;
+  transition: background-color .3s;
+}
+
+.tabbed > label:hover,
+.tabbed > input:checked + label {
+  background: #4EC6DE;
+}
+
+.tabs {
+  clear: both;
+  perspective: 600px;
+}
+
+.tabs > div {
+  position: absolute;
+  border: 2px solid #4EC6DE;
+  padding: 10px 30px 10px;
+  line-height: 1.4em;
+  opacity: 0;
+  transform: rotateX(-20deg);
+  transform-origin: top center;
+  transition: opacity .3s, transform 1s;
+  z-index: 0;
+}
+
+#tab-nav-1:checked ~ .tabs > div:nth-of-type(1),
+#tab-nav-2:checked ~ .tabs > div:nth-of-type(2),
+#tab-nav-3:checked ~ .tabs > div:nth-of-type(3),
+#tab-nav-4:checked ~ .tabs > div:nth-of-type(4) {
+  transform: rotateX(0);
+  opacity: 1;
+  z-index: 1;
+}
+@media screen and (max-width: 992px) {
+	.tabbed {
+    height: 470px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+	.tabbed {
+    height: 350px;
+  }
+}
+
+@media screen and (max-width: 587px) {
+	.tabbed {
+    height: 370px;
+  }
+  .tabs > div {
+    padding: 5px 30px 5px;
+  }
+}
+
+@media screen and (max-width: 483px) {
+	.tabbed {
+    height: 450px;
+  }
+  .tabs > div {
+    padding: 0px 30px 0px;
+  }
+}
+
+@media screen and (max-width: 391px) {
+	.tabbed {
+    height: 470px;
+  }
+  .tabs > div {
+    padding: 0px 15px 0px;
+  }
+}
