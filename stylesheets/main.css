@@ -54,7 +54,7 @@
 /* line 34, ../sass/module/_header.scss */
 .md--heading {
   color: #1be2fb;
-  padding-bottom: 10px;
+  padding-bottom: 30px;
 }
 /* line 37, ../sass/module/_header.scss */
 .md--heading span {
@@ -326,9 +326,35 @@ footer .copyright {
   background: #4ea5fa;
   padding: 6px;
 }
+/* line 28, ../sass/module/_footer.scss */
+footer .custom-input {
+  width: 220px;
+  border: none;
+  background: none;
+  border-bottom: 1px solid #4ea5fa;
+  color: #fff;
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  transition: 1s;
+}
+/* line 35, ../sass/module/_footer.scss */
+footer .custom-input::placeholder {
+  color: #c1c1c1;
+}
+/* line 38, ../sass/module/_footer.scss */
+footer .custom-input:focus {
+  outline: none;
+  border-bottom: 2px solid #f58a20;
+}
+/* line 43, ../sass/module/_footer.scss */
+footer .fa-send {
+  color: #fff;
+  margin-left: -20px;
+  cursor: pointer;
+}
 
 @media screen and (max-width: 450px) {
-  /* line 31, ../sass/module/_footer.scss */
+  /* line 51, ../sass/module/_footer.scss */
   footer .back-cover {
     background: url(../image/contact.jpg) -300px 0px;
     background-size: auto;

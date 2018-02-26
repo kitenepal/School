@@ -25,6 +25,26 @@ footer{
 		background: $primary-color;
 		padding: 6px;
 	}
+	.custom-input{
+		width: 220px;
+		border: none;
+		background: none;
+		border-bottom: 1px solid $primary-color;
+		color: #fff;
+		@include transition(1s);
+		&::placeholder {
+    	color: #c1c1c1;
+		}
+		&:focus{
+			outline: none;
+			border-bottom: 2px solid $second-txt;
+		}
+	}
+	.fa-send{
+		color: #fff;
+		margin-left: -20px;
+		cursor: pointer;
+	}
 }
 
 @media screen and (max-width: 450px) {
