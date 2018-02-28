@@ -2,94 +2,51 @@
 	background: url(../image/activities_illusion.png) repeat;
 	padding-top: $scroll-space;
 	padding-bottom: 15px;
+	color: #fff;
 }
-
-.tabbed {
-	height: 450px;
+.nav-tabs {
+    border-bottom: 1px solid $primary-color;
+    a{
+    	color: #fff;
+    }
+}
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover{
+	background-color: $primary-color;
+	border-color: $primary-color;
 	color: #fff;
 }
 
-label{
-	margin-bottom: 0px; 
-}
-.tabbed > input {
-  display: none;
+.nav>li>a:focus, .nav>li>a:hover{
+	background-color: $primary-color;
+	border-color: $primary-color;
 }
 
-.tabbed > label {
-  display: block;
-  float: left;
-  padding: 12px 20px;
-  margin-right: 5px;
-  cursor: pointer;
-  transition: background-color .3s;
+.content{
+	.content-one{
+		width: 50%;
+		display: inline-block;
+		padding-top: 15px;
+		padding-right: 10px;
+	}
+	.content-two{
+		width: 50%;
+		float: right;
+		padding-top: 15px;
+		padding-left: 10px;
+	}
 }
-
-.tabbed > label:hover,
-.tabbed > input:checked + label {
-  background: #4EC6DE;
+@media screen and (max-width: 768px){
+	.tab-content{
+		padding-bottom: 15px;
+	}
 }
-
-.tabs {
-  clear: both;
-  perspective: 600px;
-}
-
-.tabs > div {
-  position: absolute;
-  border: 2px solid #4EC6DE;
-  padding: 10px 30px 10px;
-  line-height: 1.4em;
-  opacity: 0;
-  transform: rotateX(-20deg);
-  transform-origin: top center;
-  transition: opacity .3s, transform 1s;
-  z-index: 0;
-}
-
-#tab-nav-1:checked ~ .tabs > div:nth-of-type(1),
-#tab-nav-2:checked ~ .tabs > div:nth-of-type(2),
-#tab-nav-3:checked ~ .tabs > div:nth-of-type(3),
-#tab-nav-4:checked ~ .tabs > div:nth-of-type(4) {
-  transform: rotateX(0);
-  opacity: 1;
-  z-index: 1;
-}
-@media screen and (max-width: 992px) {
-	.tabbed {
-    height: 470px;
-  }
-}
-
-@media screen and (max-width: 767px) {
-	.tabbed {
-    height: 350px;
-  }
-}
-
-@media screen and (max-width: 587px) {
-	.tabbed {
-    height: 370px;
-  }
-  .tabs > div {
-    padding: 5px 30px 5px;
-  }
-}
-
-@media screen and (max-width: 483px) {
-	.tabbed {
-    height: 450px;
-  }
-  .tabs > div {
-    padding: 0px 30px 0px;
-  }
-}
-
-@media screen and (max-width: 391px) {
-	.tabbed {
-    height: 470px;
-  }
-  .tabs > div {
-    padding: 0px 15px 0px;
-  }
+@media screen and (max-width: 421px){
+	.content{
+		p{
+			font-size: 0.9em;
+		}
+		.custom-btn{
+			padding: 1px 10px;
+		}
+	}
 }

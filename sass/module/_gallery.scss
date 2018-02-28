@@ -3,9 +3,9 @@
   padding-bottom: 15px;
 }
 
-.event-image{
-  @include transition(1s);
-  &:focus{
-    transform: scale(1.2);
+@media screen and (max-width: 768px){
+  .img-responsive{
+    margin: 0px auto;
+    display: block;
   }
 }
