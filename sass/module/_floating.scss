@@ -1,0 +1,55 @@
+.floating-event{
+	position: fixed;
+	z-index: 10;
+	bottom: 0px;
+	right: 0;
+	left: 0;
+	height: 25%;
+	width: 100%;
+	background-color: #fff;
+	.close{
+		color: #fff;
+		opacity: 1;
+		transform: skew(10deg);
+		padding-right: 10px;
+		cursor: pointer;
+		position: relative;
+		z-index: 99;
+		&:hover{
+			color: red;
+		}
+	}
+}
+
+.three-order{
+	display: flex;
+	.bend{
+		flex: 1;
+		transform-origin: bottom left;
+		transform: skew(-10deg, 0deg);
+		text-indent: 10px;
+		.re-manage{
+			transform: skew(10deg, 0deg);
+			padding-top: 10px;
+		}
+		&:first-child{
+			background-color: $primary-color;
+		}
+		&:last-child{
+			background-color: $primary-color;
+		}
+		h3{
+			margin-top: 0px;
+		}
+	}
+}
+
+.fa-angle-double-up{
+	position: fixed;
+	bottom: 0px;
+	z-index: 9;
+	left: 50%;
+	border: 1px solid black;
+	border-radius: 3px;
+	padding: 0px 8px;
+}

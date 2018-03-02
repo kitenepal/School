@@ -6,3 +6,8 @@
 
 
 
+$(document).ready(function(){
+  $('.close').click(function(){
+    $('.floating-event').hide();
+  });
+});

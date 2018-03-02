@@ -457,3 +457,68 @@ footer .fa-send {
     display: block;
   }
 }
+/* line 1, ../sass/module/_floating.scss */
+.floating-event {
+  position: fixed;
+  z-index: 10;
+  bottom: 0px;
+  right: 0;
+  left: 0;
+  height: 25%;
+  width: 100%;
+  background-color: #fff;
+}
+/* line 10, ../sass/module/_floating.scss */
+.floating-event .close {
+  color: #fff;
+  opacity: 1;
+  transform: skew(10deg);
+  padding-right: 10px;
+  cursor: pointer;
+  position: relative;
+  z-index: 99;
+}
+/* line 18, ../sass/module/_floating.scss */
+.floating-event .close:hover {
+  color: red;
+}
+
+/* line 24, ../sass/module/_floating.scss */
+.three-order {
+  display: flex;
+}
+/* line 26, ../sass/module/_floating.scss */
+.three-order .bend {
+  flex: 1;
+  transform-origin: bottom left;
+  transform: skew(-10deg, 0deg);
+  text-indent: 10px;
+}
+/* line 31, ../sass/module/_floating.scss */
+.three-order .bend .re-manage {
+  transform: skew(10deg, 0deg);
+  padding-top: 10px;
+}
+/* line 35, ../sass/module/_floating.scss */
+.three-order .bend:first-child {
+  background-color: #4ea5fa;
+}
+/* line 38, ../sass/module/_floating.scss */
+.three-order .bend:last-child {
+  background-color: #4ea5fa;
+}
+/* line 41, ../sass/module/_floating.scss */
+.three-order .bend h3 {
+  margin-top: 0px;
+}
+
+/* line 47, ../sass/module/_floating.scss */
+.fa-angle-double-up {
+  position: fixed;
+  bottom: 0px;
+  z-index: 9;
+  left: 50%;
+  border: 1px solid black;
+  border-radius: 3px;
+  padding: 0px 8px;
+}
