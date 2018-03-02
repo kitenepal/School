@@ -8,6 +8,9 @@
 
 $(document).ready(function(){
   $('.close').click(function(){
-    $('.floating-event').hide();
+    $('.floating-event').slideUp();
+  });
+  $('.fa-angle-double-up').click(function(){
+    $('.floating-event').slideDown();
   });
 });

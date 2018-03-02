@@ -460,65 +460,164 @@ footer .fa-send {
 /* line 1, ../sass/module/_floating.scss */
 .floating-event {
   position: fixed;
-  z-index: 10;
+  z-index: 99999;
   bottom: 0px;
   right: 0;
   left: 0;
-  height: 25%;
+  height: 30%;
   width: 100%;
-  background-color: #fff;
+  background-color: #4ea5fa;
 }
 /* line 10, ../sass/module/_floating.scss */
 .floating-event .close {
   color: #fff;
   opacity: 1;
   transform: skew(10deg);
-  padding-right: 10px;
+  padding-right: 40px;
   cursor: pointer;
-  position: relative;
+  position: absolute;
+  right: 0px;
   z-index: 99;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  transition: 0.3s;
 }
-/* line 18, ../sass/module/_floating.scss */
+/* line 20, ../sass/module/_floating.scss */
 .floating-event .close:hover {
-  color: red;
+  color: #f58a20;
 }
 
-/* line 24, ../sass/module/_floating.scss */
+/* line 26, ../sass/module/_floating.scss */
 .three-order {
   display: flex;
 }
-/* line 26, ../sass/module/_floating.scss */
+/* line 28, ../sass/module/_floating.scss */
 .three-order .bend {
   flex: 1;
   transform-origin: bottom left;
   transform: skew(-10deg, 0deg);
   text-indent: 10px;
 }
-/* line 31, ../sass/module/_floating.scss */
+/* line 33, ../sass/module/_floating.scss */
 .three-order .bend .re-manage {
   transform: skew(10deg, 0deg);
   padding-top: 10px;
 }
-/* line 35, ../sass/module/_floating.scss */
+/* line 37, ../sass/module/_floating.scss */
 .three-order .bend:first-child {
   background-color: #4ea5fa;
 }
-/* line 38, ../sass/module/_floating.scss */
+/* line 39, ../sass/module/_floating.scss */
+.three-order .bend:first-child .event-info {
+  display: flex;
+}
+/* line 41, ../sass/module/_floating.scss */
+.three-order .bend:first-child .event-info .info-pic {
+  flex: 1;
+}
+/* line 44, ../sass/module/_floating.scss */
+.three-order .bend:first-child .event-info .info-text {
+  flex: 1;
+}
+/* line 49, ../sass/module/_floating.scss */
+.three-order .bend:nth-child(2) {
+  background-color: #fff;
+  height: 100%;
+}
+/* line 52, ../sass/module/_floating.scss */
+.three-order .bend:nth-child(2) .event-info {
+  display: flex;
+}
+/* line 54, ../sass/module/_floating.scss */
+.three-order .bend:nth-child(2) .event-info .info-pic {
+  flex: 1;
+}
+/* line 57, ../sass/module/_floating.scss */
+.three-order .bend:nth-child(2) .event-info .info-text {
+  flex: 2;
+}
+/* line 62, ../sass/module/_floating.scss */
 .three-order .bend:last-child {
   background-color: #4ea5fa;
 }
-/* line 41, ../sass/module/_floating.scss */
+/* line 64, ../sass/module/_floating.scss */
+.three-order .bend:last-child .event-info {
+  display: flex;
+}
+/* line 66, ../sass/module/_floating.scss */
+.three-order .bend:last-child .event-info .info-pic {
+  flex: 1;
+}
+/* line 69, ../sass/module/_floating.scss */
+.three-order .bend:last-child .event-info .info-text {
+  flex: 2;
+  padding-right: 10px;
+}
+/* line 75, ../sass/module/_floating.scss */
 .three-order .bend h3 {
   margin-top: 0px;
+  font-weight: 600;
 }
 
-/* line 47, ../sass/module/_floating.scss */
+/* line 83, ../sass/module/_floating.scss */
+.go-link {
+  float: right;
+  text-decoration: underline;
+  padding-right: 20px;
+  cursor: pointer;
+}
+
+/* line 89, ../sass/module/_floating.scss */
+.go-link-last {
+  float: right;
+  text-decoration: underline;
+  padding-right: 30px;
+  cursor: pointer;
+}
+
+/* line 95, ../sass/module/_floating.scss */
 .fa-angle-double-up {
   position: fixed;
-  bottom: 0px;
+  bottom: 5px;
   z-index: 9;
   left: 50%;
   border: 1px solid black;
   border-radius: 3px;
   padding: 0px 8px;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  transition: 0.3s;
+  color: #fff;
+  background-color: #000;
+  animation: double 2s infinite all;
+  -webkit-animation: double 2s linear infinite;
+}
+/* line 108, ../sass/module/_floating.scss */
+.fa-angle-double-up:hover {
+  color: #000;
+  background-color: #fff;
+}
+
+@keyframes double {
+  0% {
+    margin-bottom: 0px;
+  }
+  10% {
+    margin-bottom: 4px;
+  }
+  20% {
+    margin-bottom: 1px;
+  }
+  45% {
+    margin-bottom: 8px;
+  }
+  80% {
+    margin-bottom: 0px;
+  }
+  90% {
+    margin-bottom: 0px;
+  }
+  100% {
+    margin-bottom: 0px;
+  }
 }

@@ -1,22 +1,24 @@
 .floating-event{
 	position: fixed;
-	z-index: 10;
+	z-index: 99999;
 	bottom: 0px;
 	right: 0;
 	left: 0;
-	height: 25%;
+	height: 30%;
 	width: 100%;
-	background-color: #fff;
+	background-color: $primary-color;
 	.close{
 		color: #fff;
 		opacity: 1;
 		transform: skew(10deg);
-		padding-right: 10px;
+		padding-right: 40px;
 		cursor: pointer;
-		position: relative;
+		position: absolute;
+		right: 0px;
 		z-index: 99;
+		@include transition(0.3s);
 		&:hover{
-			color: red;
+			color: $second-txt;
 		}
 	}
 }
@@ -34,22 +36,88 @@
 		}
 		&:first-child{
 			background-color: $primary-color;
+			.event-info{
+				display: flex;
+				.info-pic{
+					flex: 1;	
+				}
+				.info-text{
+					flex: 1;
+				}
+			}
+		}
+		&:nth-child(2){
+			background-color: #fff;
+			height: 100%;
+			.event-info{
+				display: flex;
+				.info-pic{
+					flex: 1;	
+				}
+				.info-text{
+					flex: 2;
+				}
+			}
 		}
 		&:last-child{
 			background-color: $primary-color;
+			.event-info{
+				display: flex;
+				.info-pic{
+					flex: 1;	
+				}
+				.info-text{
+					flex: 2;
+					padding-right: 10px;
+				}
+			}
 		}
 		h3{
 			margin-top: 0px;
+			font-weight: 600;
 		}
 	}
 }
 
+
+.go-link{
+	float: right;
+	text-decoration: underline;
+	padding-right: 20px;
+	cursor: pointer;
+}
+.go-link-last{
+	float: right;
+	text-decoration: underline;
+	padding-right: 30px;
+	cursor: pointer;
+}
 .fa-angle-double-up{
 	position: fixed;
-	bottom: 0px;
+	bottom: 5px;
 	z-index: 9;
 	left: 50%;
 	border: 1px solid black;
 	border-radius: 3px;
 	padding: 0px 8px;
+	@include transition(0.3s);
+	color: #fff;
+	background-color: #000;
+  animation: double 2s infinite all;
+  -webkit-animation: double 2s linear infinite;
+	&:hover{
+		color: #000;
+		background-color: #fff;
+	}
 }
+
+@keyframes double{
+  0% { margin-bottom: 0px;}
+  10% { margin-bottom: 4px;}
+  20% { margin-bottom: 1px;}
+  45% { margin-bottom: 8px;}
+  80% { margin-bottom: 0px;}
+  90% { margin-bottom: 0px;}
+  100% { margin-bottom: 0px;}
+}
+
