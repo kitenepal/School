@@ -469,6 +469,10 @@ footer .fa-send {
   background-color: #4ea5fa;
 }
 /* line 10, ../sass/module/_floating.scss */
+.floating-event input {
+  display: none;
+}
+/* line 13, ../sass/module/_floating.scss */
 .floating-event .close {
   color: #fff;
   opacity: 1;
@@ -476,90 +480,90 @@ footer .fa-send {
   padding-right: 40px;
   cursor: pointer;
   position: absolute;
+  text-indent: 0;
   right: 0px;
   z-index: 99;
   -webkit-transition: 0.3s;
   -moz-transition: 0.3s;
   transition: 0.3s;
 }
-/* line 20, ../sass/module/_floating.scss */
+/* line 24, ../sass/module/_floating.scss */
 .floating-event .close:hover {
   color: #f58a20;
 }
 
-/* line 26, ../sass/module/_floating.scss */
+/* line 30, ../sass/module/_floating.scss */
 .three-order {
   display: flex;
 }
-/* line 28, ../sass/module/_floating.scss */
-.three-order .bend {
+/* line 32, ../sass/module/_floating.scss */
+.three-order label {
   flex: 1;
-  transform-origin: bottom left;
   transform: skew(-10deg, 0deg);
   text-indent: 10px;
 }
-/* line 33, ../sass/module/_floating.scss */
-.three-order .bend .re-manage {
+/* line 36, ../sass/module/_floating.scss */
+.three-order label .re-manage {
   transform: skew(10deg, 0deg);
   padding-top: 10px;
 }
-/* line 37, ../sass/module/_floating.scss */
-.three-order .bend:first-child {
+/* line 40, ../sass/module/_floating.scss */
+.three-order label:first-child {
   background-color: #4ea5fa;
 }
-/* line 39, ../sass/module/_floating.scss */
-.three-order .bend:first-child .event-info {
+/* line 42, ../sass/module/_floating.scss */
+.three-order label:first-child .event-info {
   display: flex;
 }
-/* line 41, ../sass/module/_floating.scss */
-.three-order .bend:first-child .event-info .info-pic {
-  flex: 1;
-}
 /* line 44, ../sass/module/_floating.scss */
-.three-order .bend:first-child .event-info .info-text {
+.three-order label:first-child .event-info .info-pic {
   flex: 1;
 }
-/* line 49, ../sass/module/_floating.scss */
-.three-order .bend:nth-child(2) {
+/* line 47, ../sass/module/_floating.scss */
+.three-order label:first-child .event-info .info-text {
+  flex: 1;
+}
+/* line 52, ../sass/module/_floating.scss */
+.three-order label:nth-child(2) {
   background-color: #fff;
   height: 100%;
 }
-/* line 52, ../sass/module/_floating.scss */
-.three-order .bend:nth-child(2) .event-info {
+/* line 55, ../sass/module/_floating.scss */
+.three-order label:nth-child(2) .event-info {
   display: flex;
-}
-/* line 54, ../sass/module/_floating.scss */
-.three-order .bend:nth-child(2) .event-info .info-pic {
-  flex: 1;
 }
 /* line 57, ../sass/module/_floating.scss */
-.three-order .bend:nth-child(2) .event-info .info-text {
-  flex: 2;
-}
-/* line 62, ../sass/module/_floating.scss */
-.three-order .bend:last-child {
-  background-color: #4ea5fa;
-}
-/* line 64, ../sass/module/_floating.scss */
-.three-order .bend:last-child .event-info {
-  display: flex;
-}
-/* line 66, ../sass/module/_floating.scss */
-.three-order .bend:last-child .event-info .info-pic {
+.three-order label:nth-child(2) .event-info .info-pic {
   flex: 1;
 }
+/* line 60, ../sass/module/_floating.scss */
+.three-order label:nth-child(2) .event-info .info-text {
+  flex: 2;
+}
+/* line 65, ../sass/module/_floating.scss */
+.three-order label:last-child {
+  background-color: #4ea5fa;
+}
+/* line 67, ../sass/module/_floating.scss */
+.three-order label:last-child .event-info {
+  display: flex;
+}
 /* line 69, ../sass/module/_floating.scss */
-.three-order .bend:last-child .event-info .info-text {
+.three-order label:last-child .event-info .info-pic {
+  flex: 1;
+}
+/* line 72, ../sass/module/_floating.scss */
+.three-order label:last-child .event-info .info-text {
   flex: 2;
   padding-right: 10px;
 }
-/* line 75, ../sass/module/_floating.scss */
-.three-order .bend h3 {
+/* line 78, ../sass/module/_floating.scss */
+.three-order label h3 {
   margin-top: 0px;
   font-weight: 600;
 }
 
-/* line 83, ../sass/module/_floating.scss */
+/* line 86, ../sass/module/_floating.scss */
 .go-link {
   float: right;
   text-decoration: underline;
@@ -567,7 +571,7 @@ footer .fa-send {
   cursor: pointer;
 }
 
-/* line 89, ../sass/module/_floating.scss */
+/* line 92, ../sass/module/_floating.scss */
 .go-link-last {
   float: right;
   text-decoration: underline;
@@ -575,7 +579,7 @@ footer .fa-send {
   cursor: pointer;
 }
 
-/* line 95, ../sass/module/_floating.scss */
+/* line 98, ../sass/module/_floating.scss */
 .fa-angle-double-up {
   position: fixed;
   bottom: 5px;
@@ -592,7 +596,7 @@ footer .fa-send {
   animation: double 2s infinite all;
   -webkit-animation: double 2s linear infinite;
 }
-/* line 108, ../sass/module/_floating.scss */
+/* line 111, ../sass/module/_floating.scss */
 .fa-angle-double-up:hover {
   color: #000;
   background-color: #fff;
@@ -619,5 +623,61 @@ footer .fa-send {
   }
   100% {
     margin-bottom: 0px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  /* line 129, ../sass/module/_floating.scss */
+  .three-order {
+    display: flex;
+  }
+  /* line 131, ../sass/module/_floating.scss */
+  .three-order label {
+    flex: 0;
+    width: 10%;
+  }
+  /* line 135, ../sass/module/_floating.scss */
+  .three-order label:first-child .event-info {
+    display: flex;
+  }
+  /* line 137, ../sass/module/_floating.scss */
+  .three-order label:first-child .event-info .info-pic {
+    flex: 1;
+  }
+  /* line 140, ../sass/module/_floating.scss */
+  .three-order label:first-child .event-info .info-text {
+    flex: 1;
+  }
+  /* line 146, ../sass/module/_floating.scss */
+  .three-order label:nth-child(2) .event-info {
+    display: flex;
+  }
+  /* line 148, ../sass/module/_floating.scss */
+  .three-order label:nth-child(2) .event-info .info-pic {
+    flex: 1;
+  }
+  /* line 151, ../sass/module/_floating.scss */
+  .three-order label:nth-child(2) .event-info .info-text {
+    flex: 2;
+  }
+  /* line 157, ../sass/module/_floating.scss */
+  .three-order label:last-child .event-info {
+    display: flex;
+  }
+  /* line 159, ../sass/module/_floating.scss */
+  .three-order label:last-child .event-info .info-pic {
+    flex: 1;
+  }
+  /* line 162, ../sass/module/_floating.scss */
+  .three-order label:last-child .event-info .info-text {
+    flex: 2;
+    padding-right: 10px;
+  }
+
+  /* line 171, ../sass/module/_floating.scss */
+  #news:checked ~ .three-order > label:nth-of-type(1),
+  #calander:checked ~ .three-order > label:nth-of-type(2),
+  #article:checked ~ .three-order > label:nth-of-type(3) {
+    width: 100%;
+    flex: 1;
   }
 }
