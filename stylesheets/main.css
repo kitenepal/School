@@ -54,7 +54,7 @@
 /* line 34, ../sass/module/_header.scss */
 .md--heading {
   color: #1be2fb;
-  padding-bottom: 30px;
+  padding-bottom: 15px;
 }
 /* line 37, ../sass/module/_header.scss */
 .md--heading span {
@@ -163,7 +163,7 @@
 /* line 1, ../sass/module/_about.scss */
 .about {
   background: #4ea5fa;
-  padding-top: 40px;
+  padding-top: 10px;
 }
 /* line 4, ../sass/module/_about.scss */
 .about p {
@@ -183,7 +183,7 @@
 /* line 1, ../sass/module/_activities.scss */
 .activities {
   background: url(../image/activities_illusion.png) repeat;
-  padding-top: 40px;
+  padding-top: 10px;
   padding-bottom: 15px;
   color: #fff;
 }
@@ -312,13 +312,13 @@ footer .fa-send {
 .contact {
   background: #ddd;
   padding-bottom: 20px;
-  padding-top: 40px;
+  padding-top: 10px;
 }
 
 /* line 1, ../sass/module/_team.scss */
 .team {
   padding-bottom: 10px;
-  padding-top: 40px;
+  padding-top: 10px;
 }
 
 /* line 5, ../sass/module/_team.scss */
@@ -446,7 +446,7 @@ footer .fa-send {
 
 /* line 1, ../sass/module/_gallery.scss */
 .gallery {
-  padding-top: 40px;
+  padding-top: 10px;
   padding-bottom: 15px;
 }
 
