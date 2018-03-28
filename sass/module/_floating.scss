@@ -4,9 +4,10 @@
 	bottom: 0px;
 	right: 0;
 	left: 0;
-	height: 30%;
+	height: 150px;
 	width: 100%;
 	background-color: $primary-color;
+	border-top: 1px solid $second-txt;
 	input{
 		display: none;
 	}
@@ -32,21 +33,27 @@
 	label{
 		flex: 1;
 		transform: skew(-10deg, 0deg);
-		text-indent: 10px;
+		// text-indent: 10px;
 		@include transition(0.3s);
 		.re-manage{
 			transform: skew(10deg, 0deg);
-			padding-top: 10px;
+			padding: 10px;
 		}
 		&:first-child{
 			background-color: $primary-color;
 			.event-info{
 				display: flex;
+				padding: 0 5px;
 				.info-pic{
-					flex: 1;	
+					// flex: 1;	
 				}
 				.info-text{
-					flex: 1;
+					// flex: 1;
+					padding: 10px;
+					p{
+						font-size: 10px;
+						margin: 0;
+					}
 				}
 			}
 		}
@@ -55,11 +62,17 @@
 			height: 100%;
 			.event-info{
 				display: flex;
+				padding: 0 5px;
 				.info-pic{
-					flex: 1;	
+					// flex: 1;	
 				}
 				.info-text{
-					flex: 2;
+					// flex: 1;
+					padding: 10px;
+					p{
+						font-size: 10px;
+						margin: 0;
+					}
 				}
 			}
 		}
@@ -67,27 +80,32 @@
 			background-color: $primary-color;
 			.event-info{
 				display: flex;
+				padding: 0 5px;
 				.info-pic{
-					flex: 1;	
+					// flex: 1;	
 				}
 				.info-text{
-					flex: 2;
-					padding-right: 10px;
+					// flex: 1;
+					padding: 10px;
+					p{
+						font-size: 10px;
+						margin: 0;
+					}
 				}
 			}
 		}
-		h3{
+		h4,h5{
 			margin-top: 0px;
-			font-weight: 600;
+			font-weight: bold;
 		}
 	}
 }
 
 
 .go-link{
-	float: right;
 	text-decoration: underline;
-	padding-right: 20px;
+	padding-right: 40px; 
+	margin: 0;
 	cursor: pointer;
 }
 .go-link-last{
@@ -144,7 +162,7 @@
 				padding-right: 55px;
 			}
 		}
-		h3{
+		h4{
 			padding-bottom: 10px;
 			transform: rotate(100deg);
 		}
@@ -163,7 +181,7 @@
 				flex: 2;
 			}
 		}
-		h3{
+		h4{
 			padding-bottom: 50px;
 			text-indent: 35px;
 			transform: rotate(100deg);
@@ -181,7 +199,7 @@
 				padding-right: 50px;
 			}
 		}
-		h3{
+		h4{
 			padding-bottom: 10px;
 			text-indent: 65px;
 			transform: rotate(100deg);
@@ -198,7 +216,7 @@
 	#article:checked ~ .three-order>label:nth-of-type(3){
 		width: 100%;
 		flex: 1;
-		h3{
+		h4{
 			text-indent: 0px;
 			transform: rotate(0deg);
 			padding-bottom: 0px;

@@ -464,15 +464,16 @@ footer .fa-send {
   bottom: 0px;
   right: 0;
   left: 0;
-  height: 30%;
+  height: 150px;
   width: 100%;
   background-color: #4ea5fa;
+  border-top: 1px solid #f58a20;
 }
-/* line 10, ../sass/module/_floating.scss */
+/* line 11, ../sass/module/_floating.scss */
 .floating-event input {
   display: none;
 }
-/* line 13, ../sass/module/_floating.scss */
+/* line 14, ../sass/module/_floating.scss */
 .floating-event .close {
   color: #fff;
   opacity: 1;
@@ -487,94 +488,98 @@ footer .fa-send {
   -moz-transition: 0.3s;
   transition: 0.3s;
 }
-/* line 24, ../sass/module/_floating.scss */
+/* line 25, ../sass/module/_floating.scss */
 .floating-event .close:hover {
   color: #f58a20;
 }
 
-/* line 30, ../sass/module/_floating.scss */
+/* line 31, ../sass/module/_floating.scss */
 .three-order {
   display: flex;
 }
-/* line 32, ../sass/module/_floating.scss */
+/* line 33, ../sass/module/_floating.scss */
 .three-order label {
   flex: 1;
   transform: skew(-10deg, 0deg);
-  text-indent: 10px;
   -webkit-transition: 0.3s;
   -moz-transition: 0.3s;
   transition: 0.3s;
 }
-/* line 37, ../sass/module/_floating.scss */
+/* line 38, ../sass/module/_floating.scss */
 .three-order label .re-manage {
   transform: skew(10deg, 0deg);
-  padding-top: 10px;
+  padding: 10px;
 }
-/* line 41, ../sass/module/_floating.scss */
+/* line 42, ../sass/module/_floating.scss */
 .three-order label:first-child {
   background-color: #4ea5fa;
 }
-/* line 43, ../sass/module/_floating.scss */
+/* line 44, ../sass/module/_floating.scss */
 .three-order label:first-child .event-info {
   display: flex;
+  padding: 0 5px;
 }
-/* line 45, ../sass/module/_floating.scss */
-.three-order label:first-child .event-info .info-pic {
-  flex: 1;
-}
-/* line 48, ../sass/module/_floating.scss */
+/* line 50, ../sass/module/_floating.scss */
 .three-order label:first-child .event-info .info-text {
-  flex: 1;
+  padding: 10px;
 }
 /* line 53, ../sass/module/_floating.scss */
+.three-order label:first-child .event-info .info-text p {
+  font-size: 10px;
+  margin: 0;
+}
+/* line 60, ../sass/module/_floating.scss */
 .three-order label:nth-child(2) {
   background-color: #fff;
   height: 100%;
 }
-/* line 56, ../sass/module/_floating.scss */
+/* line 63, ../sass/module/_floating.scss */
 .three-order label:nth-child(2) .event-info {
   display: flex;
+  padding: 0 5px;
 }
-/* line 58, ../sass/module/_floating.scss */
-.three-order label:nth-child(2) .event-info .info-pic {
-  flex: 1;
-}
-/* line 61, ../sass/module/_floating.scss */
+/* line 69, ../sass/module/_floating.scss */
 .three-order label:nth-child(2) .event-info .info-text {
-  flex: 2;
+  padding: 10px;
 }
-/* line 66, ../sass/module/_floating.scss */
+/* line 72, ../sass/module/_floating.scss */
+.three-order label:nth-child(2) .event-info .info-text p {
+  font-size: 10px;
+  margin: 0;
+}
+/* line 79, ../sass/module/_floating.scss */
 .three-order label:last-child {
   background-color: #4ea5fa;
 }
-/* line 68, ../sass/module/_floating.scss */
+/* line 81, ../sass/module/_floating.scss */
 .three-order label:last-child .event-info {
   display: flex;
+  padding: 0 5px;
 }
-/* line 70, ../sass/module/_floating.scss */
-.three-order label:last-child .event-info .info-pic {
-  flex: 1;
-}
-/* line 73, ../sass/module/_floating.scss */
+/* line 87, ../sass/module/_floating.scss */
 .three-order label:last-child .event-info .info-text {
-  flex: 2;
-  padding-right: 10px;
+  padding: 10px;
 }
-/* line 79, ../sass/module/_floating.scss */
-.three-order label h3 {
+/* line 90, ../sass/module/_floating.scss */
+.three-order label:last-child .event-info .info-text p {
+  font-size: 10px;
+  margin: 0;
+}
+/* line 97, ../sass/module/_floating.scss */
+.three-order label h4, .three-order label h5 {
   margin-top: 0px;
-  font-weight: 600;
+  font-weight: bold;
 }
 
-/* line 87, ../sass/module/_floating.scss */
+/* line 105, ../sass/module/_floating.scss */
 .go-link {
-  float: right;
   text-decoration: underline;
-  padding-right: 20px;
+  padding-right: 40px;
+  margin: 0;
   cursor: pointer;
 }
 
-/* line 93, ../sass/module/_floating.scss */
+/* line 111, ../sass/module/_floating.scss */
 .go-link-last {
   float: right;
   text-decoration: underline;
@@ -582,7 +587,7 @@ footer .fa-send {
   cursor: pointer;
 }
 
-/* line 99, ../sass/module/_floating.scss */
+/* line 117, ../sass/module/_floating.scss */
 .fa-angle-double-up {
   position: fixed;
   bottom: 5px;
@@ -599,7 +604,7 @@ footer .fa-send {
   animation: double 2s infinite all;
   -webkit-animation: double 2s linear infinite;
 }
-/* line 112, ../sass/module/_floating.scss */
+/* line 130, ../sass/module/_floating.scss */
 .fa-angle-double-up:hover {
   color: #000;
   background-color: #fff;
@@ -629,98 +634,98 @@ footer .fa-send {
   }
 }
 @media screen and (max-width: 1000px) {
-  /* line 130, ../sass/module/_floating.scss */
+  /* line 148, ../sass/module/_floating.scss */
   .three-order {
     display: flex;
   }
-  /* line 132, ../sass/module/_floating.scss */
+  /* line 150, ../sass/module/_floating.scss */
   .three-order label {
     flex: 0;
     width: 10%;
   }
-  /* line 136, ../sass/module/_floating.scss */
+  /* line 154, ../sass/module/_floating.scss */
   .three-order label:first-child .event-info {
     display: flex;
     opacity: 0;
   }
-  /* line 139, ../sass/module/_floating.scss */
+  /* line 157, ../sass/module/_floating.scss */
   .three-order label:first-child .event-info .info-pic {
     flex: 1;
   }
-  /* line 142, ../sass/module/_floating.scss */
+  /* line 160, ../sass/module/_floating.scss */
   .three-order label:first-child .event-info .info-text {
     flex: 2;
     padding-right: 55px;
   }
-  /* line 147, ../sass/module/_floating.scss */
-  .three-order label:first-child h3 {
+  /* line 165, ../sass/module/_floating.scss */
+  .three-order label:first-child h4 {
     padding-bottom: 10px;
     transform: rotate(100deg);
   }
-  /* line 151, ../sass/module/_floating.scss */
+  /* line 169, ../sass/module/_floating.scss */
   .three-order label:first-child .go-link {
     padding-right: 50px;
   }
-  /* line 156, ../sass/module/_floating.scss */
+  /* line 174, ../sass/module/_floating.scss */
   .three-order label:nth-child(2) .event-info {
     display: flex;
     opacity: 0;
   }
-  /* line 159, ../sass/module/_floating.scss */
+  /* line 177, ../sass/module/_floating.scss */
   .three-order label:nth-child(2) .event-info .info-pic {
     flex: 1;
   }
-  /* line 162, ../sass/module/_floating.scss */
+  /* line 180, ../sass/module/_floating.scss */
   .three-order label:nth-child(2) .event-info .info-text {
     flex: 2;
   }
-  /* line 166, ../sass/module/_floating.scss */
-  .three-order label:nth-child(2) h3 {
+  /* line 184, ../sass/module/_floating.scss */
+  .three-order label:nth-child(2) h4 {
     padding-bottom: 50px;
     text-indent: 35px;
     transform: rotate(100deg);
   }
-  /* line 173, ../sass/module/_floating.scss */
+  /* line 191, ../sass/module/_floating.scss */
   .three-order label:last-child .event-info {
     display: flex;
     opacity: 0;
   }
-  /* line 176, ../sass/module/_floating.scss */
+  /* line 194, ../sass/module/_floating.scss */
   .three-order label:last-child .event-info .info-pic {
     flex: 1;
   }
-  /* line 179, ../sass/module/_floating.scss */
+  /* line 197, ../sass/module/_floating.scss */
   .three-order label:last-child .event-info .info-text {
     flex: 2;
     padding-right: 50px;
   }
-  /* line 184, ../sass/module/_floating.scss */
-  .three-order label:last-child h3 {
+  /* line 202, ../sass/module/_floating.scss */
+  .three-order label:last-child h4 {
     padding-bottom: 10px;
     text-indent: 65px;
     transform: rotate(100deg);
   }
-  /* line 191, ../sass/module/_floating.scss */
+  /* line 209, ../sass/module/_floating.scss */
   .three-order .go-link {
     margin-bottom: 0px;
   }
 
-  /* line 196, ../sass/module/_floating.scss */
+  /* line 214, ../sass/module/_floating.scss */
   #news:checked ~ .three-order > label:nth-of-type(1),
   #calander:checked ~ .three-order > label:nth-of-type(2),
   #article:checked ~ .three-order > label:nth-of-type(3) {
     width: 100%;
     flex: 1;
   }
-  /* line 201, ../sass/module/_floating.scss */
-  #news:checked ~ .three-order > label:nth-of-type(1) h3,
-  #calander:checked ~ .three-order > label:nth-of-type(2) h3,
-  #article:checked ~ .three-order > label:nth-of-type(3) h3 {
+  /* line 219, ../sass/module/_floating.scss */
+  #news:checked ~ .three-order > label:nth-of-type(1) h4,
+  #calander:checked ~ .three-order > label:nth-of-type(2) h4,
+  #article:checked ~ .three-order > label:nth-of-type(3) h4 {
     text-indent: 0px;
     transform: rotate(0deg);
     padding-bottom: 0px;
   }
-  /* line 206, ../sass/module/_floating.scss */
+  /* line 224, ../sass/module/_floating.scss */
   #news:checked ~ .three-order > label:nth-of-type(1) .event-info,
   #calander:checked ~ .three-order > label:nth-of-type(2) .event-info,
   #article:checked ~ .three-order > label:nth-of-type(3) .event-info {
@@ -728,49 +733,49 @@ footer .fa-send {
   }
 }
 @media screen and (max-width: 860px) {
-  /* line 215, ../sass/module/_floating.scss */
+  /* line 233, ../sass/module/_floating.scss */
   .three-order label:first-child .event-info .info-text {
     padding-right: 45px;
     padding-left: 20px;
   }
 }
 @media screen and (max-width: 645px) {
-  /* line 226, ../sass/module/_floating.scss */
+  /* line 244, ../sass/module/_floating.scss */
   .three-order label:first-child .event-info .info-text {
     font-size: 0.9em;
   }
 }
 @media screen and (max-width: 560px) {
-  /* line 237, ../sass/module/_floating.scss */
+  /* line 255, ../sass/module/_floating.scss */
   .three-order label:first-child .event-info img {
     width: 120px;
   }
-  /* line 240, ../sass/module/_floating.scss */
+  /* line 258, ../sass/module/_floating.scss */
   .three-order label:first-child .event-info .info-text {
     padding-right: 30px;
     padding-left: 2px;
   }
-  /* line 245, ../sass/module/_floating.scss */
+  /* line 263, ../sass/module/_floating.scss */
   .three-order label:nth-of-type(2) .event-info .info-text {
     font-size: 0.9em;
   }
-  /* line 248, ../sass/module/_floating.scss */
+  /* line 266, ../sass/module/_floating.scss */
   .three-order label:last-child .event-info .info-text {
     padding-right: 20px;
   }
 }
 @media screen and (max-width: 415px) {
-  /* line 258, ../sass/module/_floating.scss */
+  /* line 276, ../sass/module/_floating.scss */
   .three-order label:last-child .event-info .info-text {
     font-size: 0.9em;
   }
 }
 @media screen and (max-width: 401px) {
-  /* line 269, ../sass/module/_floating.scss */
+  /* line 287, ../sass/module/_floating.scss */
   .three-order label:first-child .event-info .info-text {
     font-size: 0.8em;
   }
-  /* line 273, ../sass/module/_floating.scss */
+  /* line 291, ../sass/module/_floating.scss */
   .three-order label:nth-of-type(2) .event-info img {
     width: 85px;
   }
