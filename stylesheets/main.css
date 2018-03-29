@@ -6,17 +6,18 @@
 
 /* line 1, ../sass/module/_header.scss */
 .md--topbar {
-  background: #ccc;
+  background: #222;
+  color: #FFD700;
   padding: 7px;
 }
-/* line 4, ../sass/module/_header.scss */
+/* line 5, ../sass/module/_header.scss */
 .md--topbar iframe {
   width: 130px;
   height: 20px;
   float: left;
 }
 
-/* line 10, ../sass/module/_header.scss */
+/* line 11, ../sass/module/_header.scss */
 .navbar {
   border-color: #FFD700;
   -webkit-border-radius: 0px;
@@ -28,46 +29,46 @@
   margin-bottom: 0px;
 }
 
-/* line 17, ../sass/module/_header.scss */
+/* line 18, ../sass/module/_header.scss */
 .navbar-inverse .navbar-brand {
   color: #fff;
 }
 
-/* line 20, ../sass/module/_header.scss */
+/* line 21, ../sass/module/_header.scss */
 .navbar-inverse .navbar-nav > li > a {
   color: #fff;
 }
 
-/* line 23, ../sass/module/_header.scss */
+/* line 24, ../sass/module/_header.scss */
 .affix {
   top: 0;
   width: 100%;
   z-index: 9999 !important;
 }
 
-/* line 29, ../sass/module/_header.scss */
+/* line 30, ../sass/module/_header.scss */
 .affix ~ .navfix-management {
   position: relative;
   top: 60px;
 }
 
-/* line 34, ../sass/module/_header.scss */
+/* line 35, ../sass/module/_header.scss */
 .md--heading {
   color: #1be2fb;
   padding-bottom: 15px;
 }
-/* line 37, ../sass/module/_header.scss */
+/* line 38, ../sass/module/_header.scss */
 .md--heading span {
   color: #f58a20;
 }
 
-/* line 41, ../sass/module/_header.scss */
+/* line 42, ../sass/module/_header.scss */
 .md--fullwidth {
   padding: 0px;
 }
 
 @media screen and (max-width: 270px) {
-  /* line 46, ../sass/module/_header.scss */
+  /* line 47, ../sass/module/_header.scss */
   .md--topbar iframe {
     width: 80px;
   }
