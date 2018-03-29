@@ -9,11 +9,12 @@
     }
 }
 .navbar {
-    border-color: $primary-color;
+    border: 0;
+    border-bottom: 1px solid $secondary-color;
     @include border-radius(0px);
     background: $primary-color;
     color: $secondary-color;
-    margin-bottom: 0px;
+    margin: 0px;
 }
 .navbar-inverse .navbar-brand {
     color: $secondary-color;
