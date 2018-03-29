@@ -18,12 +18,12 @@
 
 /* line 10, ../sass/module/_header.scss */
 .navbar {
-  border-color: #e9e9e9;
+  border-color: #FFD700;
   -webkit-border-radius: 0px;
   -moz-border-radius: 0px;
   -ms-border-radius: 0px;
   border-radius: 0px;
-  background: #e9e9e9;
+  background: #FFD700;
   color: #fff;
   margin-bottom: 0px;
 }
@@ -142,8 +142,8 @@
   -moz-border-radius: 5px;
   -ms-border-radius: 5px;
   border-radius: 5px;
-  border-color: #e9e9e9;
-  color: #e9e9e9;
+  border-color: #FFD700;
+  color: #FFD700;
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
   transition: all 0.3s ease;
@@ -162,7 +162,7 @@
 
 /* line 1, ../sass/module/_about.scss */
 .about {
-  background: #e9e9e9;
+  background: #FFD700;
   padding-top: 10px;
 }
 /* line 4, ../sass/module/_about.scss */
@@ -190,7 +190,7 @@
 
 /* line 7, ../sass/module/_activities.scss */
 .nav-tabs {
-  border-bottom: 1px solid #e9e9e9;
+  border-bottom: 1px solid #FFD700;
 }
 /* line 9, ../sass/module/_activities.scss */
 .nav-tabs a {
@@ -199,15 +199,15 @@
 
 /* line 13, ../sass/module/_activities.scss */
 .nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover {
-  background-color: #e9e9e9;
-  border-color: #e9e9e9;
+  background-color: #FFD700;
+  border-color: #FFD700;
   color: #fff;
 }
 
 /* line 19, ../sass/module/_activities.scss */
 .nav > li > a:focus, .nav > li > a:hover {
-  background-color: #e9e9e9;
-  border-color: #e9e9e9;
+  background-color: #FFD700;
+  border-color: #FFD700;
 }
 
 /* line 25, ../sass/module/_activities.scss */
@@ -248,7 +248,7 @@ footer .back-cover {
 }
 /* line 6, ../sass/module/_footer.scss */
 footer h3 {
-  color: #e9e9e9;
+  color: #FFD700;
 }
 /* line 9, ../sass/module/_footer.scss */
 footer ul, footer ol {
@@ -271,7 +271,7 @@ footer .container > .row > div:nth-of-type(4) {
 }
 /* line 24, ../sass/module/_footer.scss */
 footer .copyright {
-  background: #e9e9e9;
+  background: #FFD700;
   padding: 6px;
 }
 /* line 28, ../sass/module/_footer.scss */
@@ -279,7 +279,7 @@ footer .custom-input {
   width: 220px;
   border: none;
   background: none;
-  border-bottom: 1px solid #e9e9e9;
+  border-bottom: 1px solid #FFD700;
   color: #fff;
   -webkit-transition: 1s;
   -moz-transition: 1s;
@@ -390,7 +390,7 @@ footer .fa-send {
   width: 30px;
   height: 30px;
   text-align: center;
-  border: 1px solid #e9e9e9;
+  border: 1px solid #FFD700;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
@@ -430,18 +430,18 @@ footer .fa-send {
 
 /* line 77, ../sass/module/_team.scss */
 .profile a {
-  color: #e9e9e9;
+  color: #FFD700;
 }
 
 /* line 80, ../sass/module/_team.scss */
 .profile a:hover {
   text-decoration: none;
-  color: #e9e9e9;
+  color: #FFD700;
 }
 
 /* line 84, ../sass/module/_team.scss */
 .profile i.red {
-  color: #e9e9e9;
+  color: #FFD700;
 }
 
 /* line 1, ../sass/module/_gallery.scss */
@@ -466,7 +466,7 @@ footer .fa-send {
   left: 0;
   height: 150px;
   width: 100%;
-  background-color: #e9e9e9;
+  background-color: #FFD700;
   border-top: 1px solid #f58a20;
 }
 /* line 11, ../sass/module/_floating.scss */
@@ -513,74 +513,83 @@ footer .fa-send {
 /* line 41, ../sass/module/_floating.scss */
 .three-order label .re-manage .carousel-indicators {
   margin: 0;
-  text-align: left;
-  bottom: -10px;
+  text-align: right;
+  bottom: 0px;
   left: 0;
-  z-index: 0;
+  z-index: 1;
+}
+/* line 47, ../sass/module/_floating.scss */
+.three-order label .re-manage .carousel-indicators li {
+  border-color: #222;
 }
 /* line 49, ../sass/module/_floating.scss */
-.three-order label:first-child {
-  background-color: #e9e9e9;
+.three-order label .re-manage .carousel-indicators li.active {
+  background-color: #222;
 }
-/* line 51, ../sass/module/_floating.scss */
+/* line 55, ../sass/module/_floating.scss */
+.three-order label:first-child {
+  background-color: #FFD700;
+}
+/* line 57, ../sass/module/_floating.scss */
 .three-order label:first-child .event-info {
   display: flex;
   padding: 0 5px;
 }
-/* line 57, ../sass/module/_floating.scss */
+/* line 63, ../sass/module/_floating.scss */
 .three-order label:first-child .event-info .info-text {
   padding: 10px;
 }
-/* line 60, ../sass/module/_floating.scss */
+/* line 66, ../sass/module/_floating.scss */
 .three-order label:first-child .event-info .info-text p {
   font-size: 10px;
   margin: 0;
 }
-/* line 67, ../sass/module/_floating.scss */
+/* line 73, ../sass/module/_floating.scss */
 .three-order label:nth-child(2) {
   background-color: #fff;
   height: 100%;
 }
-/* line 70, ../sass/module/_floating.scss */
+/* line 76, ../sass/module/_floating.scss */
 .three-order label:nth-child(2) .event-info {
   display: flex;
   padding: 0 5px;
 }
-/* line 79, ../sass/module/_floating.scss */
+/* line 85, ../sass/module/_floating.scss */
 .three-order label:nth-child(2) .event-info .info-text p {
-  font-size: 10px;
+  font-size: 9px;
   margin: 0;
+  padding: 0;
 }
-/* line 83, ../sass/module/_floating.scss */
+/* line 90, ../sass/module/_floating.scss */
 .three-order label:nth-child(2) .event-info .info-text ul li {
   font-size: 10px;
 }
-/* line 88, ../sass/module/_floating.scss */
+/* line 95, ../sass/module/_floating.scss */
 .three-order label:last-child {
-  background-color: #e9e9e9;
+  background-color: #FFD700;
 }
-/* line 90, ../sass/module/_floating.scss */
+/* line 97, ../sass/module/_floating.scss */
 .three-order label:last-child .event-info {
   display: flex;
   padding: 0 5px;
 }
-/* line 96, ../sass/module/_floating.scss */
+/* line 103, ../sass/module/_floating.scss */
 .three-order label:last-child .event-info .info-text {
   padding: 10px;
 }
-/* line 99, ../sass/module/_floating.scss */
+/* line 106, ../sass/module/_floating.scss */
 .three-order label:last-child .event-info .info-text p {
   font-size: 10px;
   margin: 0;
 }
-/* line 106, ../sass/module/_floating.scss */
+/* line 113, ../sass/module/_floating.scss */
 .three-order label h4, .three-order label h5 {
   margin-top: 0px;
   font-weight: bold;
   text-transform: uppercase;
 }
 
-/* line 115, ../sass/module/_floating.scss */
+/* line 122, ../sass/module/_floating.scss */
 .go-link {
   text-decoration: underline;
   padding-right: 40px;
@@ -588,7 +597,7 @@ footer .fa-send {
   cursor: pointer;
 }
 
-/* line 121, ../sass/module/_floating.scss */
+/* line 128, ../sass/module/_floating.scss */
 .go-link-last {
   float: right;
   text-decoration: underline;
@@ -596,7 +605,7 @@ footer .fa-send {
   cursor: pointer;
 }
 
-/* line 127, ../sass/module/_floating.scss */
+/* line 134, ../sass/module/_floating.scss */
 .fa-angle-double-up {
   position: fixed;
   bottom: 5px;
@@ -613,7 +622,7 @@ footer .fa-send {
   animation: double 2s infinite all;
   -webkit-animation: double 2s linear infinite;
 }
-/* line 140, ../sass/module/_floating.scss */
+/* line 147, ../sass/module/_floating.scss */
 .fa-angle-double-up:hover {
   color: #000;
   background-color: #fff;
@@ -643,89 +652,72 @@ footer .fa-send {
   }
 }
 @media screen and (max-width: 1000px) {
-  /* line 158, ../sass/module/_floating.scss */
+  /* line 165, ../sass/module/_floating.scss */
   .three-order {
     display: flex;
   }
-  /* line 160, ../sass/module/_floating.scss */
+  /* line 167, ../sass/module/_floating.scss */
   .three-order label {
     flex: 0;
     width: 10%;
   }
-  /* line 164, ../sass/module/_floating.scss */
+  /* line 171, ../sass/module/_floating.scss */
   .three-order label:first-child .event-info {
     display: flex;
     opacity: 0;
   }
-  /* line 167, ../sass/module/_floating.scss */
-  .three-order label:first-child .event-info .info-pic {
-    flex: 1;
-  }
-  /* line 170, ../sass/module/_floating.scss */
-  .three-order label:first-child .event-info .info-text {
-    flex: 2;
-    padding-right: 55px;
-  }
-  /* line 175, ../sass/module/_floating.scss */
+  /* line 182, ../sass/module/_floating.scss */
   .three-order label:first-child h4 {
     padding-bottom: 10px;
     transform: rotate(100deg);
   }
-  /* line 179, ../sass/module/_floating.scss */
+  /* line 186, ../sass/module/_floating.scss */
   .three-order label:first-child .go-link {
     padding-right: 50px;
   }
-  /* line 184, ../sass/module/_floating.scss */
+  /* line 191, ../sass/module/_floating.scss */
   .three-order label:nth-child(2) .event-info {
     display: flex;
     opacity: 0;
   }
-  /* line 187, ../sass/module/_floating.scss */
-  .three-order label:nth-child(2) .event-info .info-pic {
-    flex: 1;
-  }
-  /* line 190, ../sass/module/_floating.scss */
-  .three-order label:nth-child(2) .event-info .info-text {
-    flex: 2;
-  }
-  /* line 194, ../sass/module/_floating.scss */
+  /* line 201, ../sass/module/_floating.scss */
   .three-order label:nth-child(2) h4 {
     padding-bottom: 10px;
     text-indent: 25px;
     transform: rotate(100deg);
   }
-  /* line 201, ../sass/module/_floating.scss */
+  /* line 208, ../sass/module/_floating.scss */
   .three-order label:last-child .event-info {
     display: flex;
     opacity: 0;
   }
-  /* line 204, ../sass/module/_floating.scss */
+  /* line 211, ../sass/module/_floating.scss */
   .three-order label:last-child .event-info .info-pic {
     flex: 1;
   }
-  /* line 207, ../sass/module/_floating.scss */
+  /* line 214, ../sass/module/_floating.scss */
   .three-order label:last-child .event-info .info-text {
     flex: 2;
     padding-right: 50px;
   }
-  /* line 212, ../sass/module/_floating.scss */
+  /* line 219, ../sass/module/_floating.scss */
   .three-order label:last-child h4 {
     text-indent: 50px;
     transform: rotate(100deg);
   }
-  /* line 218, ../sass/module/_floating.scss */
+  /* line 225, ../sass/module/_floating.scss */
   .three-order .go-link {
     margin-bottom: 0px;
   }
 
-  /* line 223, ../sass/module/_floating.scss */
+  /* line 230, ../sass/module/_floating.scss */
   #news:checked ~ .three-order > label:nth-of-type(1),
   #calander:checked ~ .three-order > label:nth-of-type(2),
   #article:checked ~ .three-order > label:nth-of-type(3) {
     width: 100%;
     flex: 1;
   }
-  /* line 228, ../sass/module/_floating.scss */
+  /* line 235, ../sass/module/_floating.scss */
   #news:checked ~ .three-order > label:nth-of-type(1) h4,
   #calander:checked ~ .three-order > label:nth-of-type(2) h4,
   #article:checked ~ .three-order > label:nth-of-type(3) h4 {
@@ -733,7 +725,7 @@ footer .fa-send {
     transform: rotate(0deg);
     padding-bottom: 0px;
   }
-  /* line 233, ../sass/module/_floating.scss */
+  /* line 240, ../sass/module/_floating.scss */
   #news:checked ~ .three-order > label:nth-of-type(1) .event-info,
   #calander:checked ~ .three-order > label:nth-of-type(2) .event-info,
   #article:checked ~ .three-order > label:nth-of-type(3) .event-info {
@@ -741,49 +733,52 @@ footer .fa-send {
   }
 }
 @media screen and (max-width: 860px) {
-  /* line 242, ../sass/module/_floating.scss */
+  /* line 249, ../sass/module/_floating.scss */
   .three-order label:first-child .event-info .info-text {
     padding-right: 45px;
     padding-left: 20px;
   }
 }
 @media screen and (max-width: 645px) {
-  /* line 253, ../sass/module/_floating.scss */
+  /* line 260, ../sass/module/_floating.scss */
   .three-order label:first-child .event-info .info-text {
     font-size: 0.9em;
   }
 }
 @media screen and (max-width: 560px) {
-  /* line 264, ../sass/module/_floating.scss */
+  /* line 271, ../sass/module/_floating.scss */
   .three-order label:first-child .event-info img {
-    width: 120px;
+    width: 75px;
   }
-  /* line 267, ../sass/module/_floating.scss */
+  /* line 274, ../sass/module/_floating.scss */
   .three-order label:first-child .event-info .info-text {
-    padding-right: 30px;
-    padding-left: 2px;
+    padding: 5px;
   }
-  /* line 272, ../sass/module/_floating.scss */
+  /* line 279, ../sass/module/_floating.scss */
   .three-order label:nth-of-type(2) .event-info .info-text {
-    font-size: 0.9em;
+    font-size: 0.8em;
   }
-  /* line 275, ../sass/module/_floating.scss */
+  /* line 283, ../sass/module/_floating.scss */
+  .three-order label:last-child .event-info img {
+    width: 75px;
+  }
+  /* line 286, ../sass/module/_floating.scss */
   .three-order label:last-child .event-info .info-text {
-    padding-right: 20px;
+    padding: 5px;
   }
 }
 @media screen and (max-width: 415px) {
-  /* line 285, ../sass/module/_floating.scss */
+  /* line 298, ../sass/module/_floating.scss */
   .three-order label:last-child .event-info .info-text {
     font-size: 0.9em;
   }
 }
 @media screen and (max-width: 401px) {
-  /* line 296, ../sass/module/_floating.scss */
+  /* line 309, ../sass/module/_floating.scss */
   .three-order label:first-child .event-info .info-text {
     font-size: 0.8em;
   }
-  /* line 300, ../sass/module/_floating.scss */
+  /* line 313, ../sass/module/_floating.scss */
   .three-order label:nth-of-type(2) .event-info img {
     width: 85px;
   }
