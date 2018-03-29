@@ -4,6 +4,22 @@
   font-family: Raleway;
 }
 
+/* line 8, ../sass/base/_base.scss */
+.primary_btn {
+  background-color: #222;
+  border: 1px solid #FFD700;
+  color: #FFD700;
+  transition: 0.2s;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+/* line 15, ../sass/base/_base.scss */
+.primary_btn:hover {
+  background-color: #FFD700;
+  border-color: #222;
+  color: #222;
+}
+
 /* line 1, ../sass/module/_header.scss */
 .md--topbar {
   background: #222;
@@ -25,50 +41,53 @@
   -ms-border-radius: 0px;
   border-radius: 0px;
   background: #FFD700;
-  color: #fff;
+  color: #222;
   margin-bottom: 0px;
 }
 
 /* line 18, ../sass/module/_header.scss */
 .navbar-inverse .navbar-brand {
-  color: #fff;
+  color: #222;
+  font-weight: bold;
 }
 
-/* line 21, ../sass/module/_header.scss */
+/* line 22, ../sass/module/_header.scss */
 .navbar-inverse .navbar-nav > li > a {
-  color: #fff;
+  color: #222;
+  font-weight: bold;
+  text-transform: uppercase;
 }
 
-/* line 24, ../sass/module/_header.scss */
+/* line 27, ../sass/module/_header.scss */
 .affix {
   top: 0;
   width: 100%;
   z-index: 9999 !important;
 }
 
-/* line 30, ../sass/module/_header.scss */
+/* line 33, ../sass/module/_header.scss */
 .affix ~ .navfix-management {
   position: relative;
   top: 60px;
 }
 
-/* line 35, ../sass/module/_header.scss */
+/* line 38, ../sass/module/_header.scss */
 .md--heading {
   color: #1be2fb;
   padding-bottom: 15px;
 }
-/* line 38, ../sass/module/_header.scss */
+/* line 41, ../sass/module/_header.scss */
 .md--heading span {
   color: #f58a20;
 }
 
-/* line 42, ../sass/module/_header.scss */
+/* line 45, ../sass/module/_header.scss */
 .md--fullwidth {
   padding: 0px;
 }
 
 @media screen and (max-width: 270px) {
-  /* line 47, ../sass/module/_header.scss */
+  /* line 50, ../sass/module/_header.scss */
   .md--topbar iframe {
     width: 80px;
   }
