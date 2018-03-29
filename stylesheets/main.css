@@ -496,7 +496,7 @@ footer .fa-send {
   height: 150px;
   width: 100%;
   background-color: #FFD700;
-  border-top: 1px solid #f58a20;
+  border-top: 1px solid #222;
 }
 /* line 11, ../sass/module/_floating.scss */
 .floating-event input {
