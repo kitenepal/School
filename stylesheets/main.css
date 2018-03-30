@@ -845,3 +845,13 @@ footer .fa-send {
     width: 85px;
   }
 }
+/* line 3, ../sass/module/pages/_about.scss */
+.about-page p {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+/* line 7, ../sass/module/pages/_about.scss */
+.about-page .custom-btn {
+  border-color: #000;
+  color: #000;
+}
