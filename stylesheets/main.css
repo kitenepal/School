@@ -504,13 +504,11 @@ footer .fa-send {
   color: #ff9800;
 }
 
-@media screen and (max-width: 768px) {
-  /* line 6, ../sass/module/_gallery.scss */
-  .img-responsive {
-    margin: 0px auto;
-    display: block;
-  }
+/* line 2, ../sass/module/_gallery.scss */
+.gallery .gallery-img {
+  padding: 10px;
 }
+
 /* line 1, ../sass/module/_floating.scss */
 .floating-event {
   position: fixed;
