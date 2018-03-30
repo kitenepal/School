@@ -26,9 +26,10 @@
   font-weight: bold;
   text-transform: uppercase;
   text-decoration: underline;
+  padding: 10px 0;
 }
 
-/* line 31, ../sass/base/_base.scss */
+/* line 32, ../sass/base/_base.scss */
 .section-padding {
   padding: 40px 0;
 }
