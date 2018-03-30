@@ -4,7 +4,13 @@
   font-family: Raleway;
 }
 
-/* line 8, ../sass/base/_base.scss */
+/* line 5, ../sass/base/_base.scss */
+body {
+  background-color: #ffffff;
+  background-image: url("https://www.transparenttextures.com/patterns/black-thread-light.png");
+}
+
+/* line 12, ../sass/base/_base.scss */
 .primary_btn {
   background-color: #222;
   border: 2px solid #ff9800;
@@ -13,14 +19,14 @@
   text-transform: uppercase;
   font-weight: bold;
 }
-/* line 15, ../sass/base/_base.scss */
+/* line 19, ../sass/base/_base.scss */
 .primary_btn:hover {
   background-color: #ff9800;
   border-color: #222;
   color: #222;
 }
 
-/* line 23, ../sass/base/_base.scss */
+/* line 27, ../sass/base/_base.scss */
 .heading-title {
   color: #222;
   font-weight: bold;
@@ -29,7 +35,7 @@
   padding: 10px 0;
 }
 
-/* line 32, ../sass/base/_base.scss */
+/* line 36, ../sass/base/_base.scss */
 .section-padding {
   padding: 40px 0;
 }
