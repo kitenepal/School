@@ -1,7 +1,8 @@
 footer{
 	.back-cover{
-		background: url(../image/contact.jpg) 0px 1px;
-		background-size: cover;
+		// background: url(../image/contact.jpg) 0px 1px;
+		// background-size: cover;
+		background-color: $secondary-color;
 	}
 	h3{
 		color: $primary-color;		

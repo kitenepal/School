@@ -284,38 +284,37 @@ body {
 }
 /* line 2, ../sass/module/_footer.scss */
 footer .back-cover {
-  background: url(../image/contact.jpg) 0px 1px;
-  background-size: cover;
+  background-color: #222;
 }
-/* line 6, ../sass/module/_footer.scss */
+/* line 7, ../sass/module/_footer.scss */
 footer h3 {
   color: #ff9800;
 }
-/* line 9, ../sass/module/_footer.scss */
+/* line 10, ../sass/module/_footer.scss */
 footer ul, footer ol {
   list-style: none;
   margin: 0px;
   padding: 0px;
   color: #fff;
 }
-/* line 14, ../sass/module/_footer.scss */
+/* line 15, ../sass/module/_footer.scss */
 footer ul a, footer ol a {
   color: #fff;
 }
-/* line 18, ../sass/module/_footer.scss */
+/* line 19, ../sass/module/_footer.scss */
 footer p {
   color: #fff;
 }
-/* line 21, ../sass/module/_footer.scss */
+/* line 22, ../sass/module/_footer.scss */
 footer .container > .row > div:nth-of-type(4) {
   padding-bottom: 50px;
 }
-/* line 24, ../sass/module/_footer.scss */
+/* line 25, ../sass/module/_footer.scss */
 footer .copyright {
   background: #ff9800;
   padding: 6px;
 }
-/* line 28, ../sass/module/_footer.scss */
+/* line 29, ../sass/module/_footer.scss */
 footer .custom-input {
   width: 220px;
   border: none;
@@ -326,16 +325,16 @@ footer .custom-input {
   -moz-transition: 1s;
   transition: 1s;
 }
-/* line 35, ../sass/module/_footer.scss */
+/* line 36, ../sass/module/_footer.scss */
 footer .custom-input::placeholder {
   color: #c1c1c1;
 }
-/* line 38, ../sass/module/_footer.scss */
+/* line 39, ../sass/module/_footer.scss */
 footer .custom-input:focus {
   outline: none;
   border-bottom: 2px solid #f58a20;
 }
-/* line 43, ../sass/module/_footer.scss */
+/* line 44, ../sass/module/_footer.scss */
 footer .fa-send {
   color: #fff;
   margin-left: -20px;
@@ -343,7 +342,7 @@ footer .fa-send {
 }
 
 @media screen and (max-width: 450px) {
-  /* line 51, ../sass/module/_footer.scss */
+  /* line 52, ../sass/module/_footer.scss */
   footer .back-cover {
     background: url(../image/contact.jpg) -300px 0px;
     background-size: auto;
@@ -352,8 +351,6 @@ footer .fa-send {
 /* line 1, ../sass/module/_contact.scss */
 .contact {
   background: #ddd;
-  padding-bottom: 20px;
-  padding-top: 10px;
 }
 
 /* line 3, ../sass/module/_team.scss */
