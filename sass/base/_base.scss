@@ -40,3 +40,8 @@ body{
 .section-padding{
 	padding: $section-padding;
 }
+
+// link
+a:hover{
+	text-decoration: none;
+}

@@ -12,7 +12,7 @@
 		display: none;
 	}
 	.close{
-		color: #f00;
+		color: $secondary-color;
 		opacity: 1;
 		transform: skew(10deg);
 		padding-right: 40px;
@@ -23,7 +23,7 @@
 		z-index: 99;
 		@include transition(0.3s);
 		&:hover{
-			color: $second-txt;
+			color: #f00;
 		}
 	}
 }
@@ -50,6 +50,9 @@
 						background-color: $secondary-color;
 					}
 				}
+			}
+			.carousel-inner .item a{
+				color: $secondary-color;
 			}
 		}
 		&:first-child{
@@ -123,7 +126,9 @@
 	text-decoration: underline;
 	padding-right: 40px; 
 	margin: 0;
-	cursor: pointer;
+	a{
+		color: $secondary-color;
+	}
 }
 .go-link-last{
 	float: right;
