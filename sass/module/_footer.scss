@@ -51,6 +51,9 @@ footer{
 	.copyright{
 		background: $primary-color;
 		padding: 6px;
+		color: $secondary-color;
+		text-transform: uppercase;
+		font-weight: bold;
 	}
 	.custom-input{
 		width: 220px;

@@ -348,8 +348,11 @@ footer .container > .row > div:nth-of-type(4) {
 footer .copyright {
   background: #ff9800;
   padding: 6px;
+  color: #222;
+  text-transform: uppercase;
+  font-weight: bold;
 }
-/* line 55, ../sass/module/_footer.scss */
+/* line 58, ../sass/module/_footer.scss */
 footer .custom-input {
   width: 220px;
   border: none;
@@ -360,16 +363,16 @@ footer .custom-input {
   -moz-transition: 1s;
   transition: 1s;
 }
-/* line 62, ../sass/module/_footer.scss */
+/* line 65, ../sass/module/_footer.scss */
 footer .custom-input::placeholder {
   color: #ff9800;
 }
-/* line 65, ../sass/module/_footer.scss */
+/* line 68, ../sass/module/_footer.scss */
 footer .custom-input:focus {
   outline: none;
   border-bottom: 2px solid #f58a20;
 }
-/* line 70, ../sass/module/_footer.scss */
+/* line 73, ../sass/module/_footer.scss */
 footer .fa-send {
   color: #fff;
   margin-left: -20px;
