@@ -1,6 +1,4 @@
 .team{
-	padding-bottom: 10px;
-	padding-top: $scroll-space;
 }
 .profile{
 	margin-top: 15px;
@@ -42,7 +40,7 @@
 	opacity: 0;
 }
 .profile .img-box:after, .img-box ul, .img-box ul li{
-	@include transition(all 0.5s ease-in-out 0s);
+	@include transition(all 0.2s ease-in-out 0s);
 }
 .img-box ul i{
 	font-size: 20px;

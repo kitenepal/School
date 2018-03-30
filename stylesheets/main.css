@@ -18,15 +18,16 @@ body {
   transition: 0.2s;
   text-transform: uppercase;
   font-weight: bold;
+  margin: 20px 0;
 }
-/* line 19, ../sass/base/_base.scss */
+/* line 20, ../sass/base/_base.scss */
 .primary_btn:hover {
   background-color: #ff9800;
   border-color: #222;
   color: #222;
 }
 
-/* line 27, ../sass/base/_base.scss */
+/* line 28, ../sass/base/_base.scss */
 .heading-title {
   color: #222;
   font-weight: bold;
@@ -35,7 +36,7 @@ body {
   padding: 10px 0;
 }
 
-/* line 36, ../sass/base/_base.scss */
+/* line 37, ../sass/base/_base.scss */
 .section-padding {
   padding: 40px 0;
 }
@@ -355,39 +356,33 @@ footer .fa-send {
   padding-top: 10px;
 }
 
-/* line 1, ../sass/module/_team.scss */
-.team {
-  padding-bottom: 10px;
-  padding-top: 10px;
-}
-
-/* line 5, ../sass/module/_team.scss */
+/* line 3, ../sass/module/_team.scss */
 .profile {
   margin-top: 15px;
 }
 
-/* line 8, ../sass/module/_team.scss */
+/* line 6, ../sass/module/_team.scss */
 .profile h1 {
   font-weight: bold;
   font-size: 20px;
   margin: 10px 0 0 0;
 }
 
-/* line 13, ../sass/module/_team.scss */
+/* line 11, ../sass/module/_team.scss */
 .profile h2 {
   font-size: 14px;
   font-weight: lighter;
   margin-top: 5px;
 }
 
-/* line 18, ../sass/module/_team.scss */
+/* line 16, ../sass/module/_team.scss */
 .profile .img-box {
   opacity: 1;
   display: block;
   position: relative;
 }
 
-/* line 23, ../sass/module/_team.scss */
+/* line 21, ../sass/module/_team.scss */
 .profile .img-box:after {
   content: "";
   opacity: 0;
@@ -399,7 +394,7 @@ footer .fa-send {
   bottom: 0;
 }
 
-/* line 33, ../sass/module/_team.scss */
+/* line 31, ../sass/module/_team.scss */
 .img-box ul {
   position: absolute;
   z-index: 2;
@@ -412,20 +407,20 @@ footer .fa-send {
   opacity: 0;
 }
 
-/* line 44, ../sass/module/_team.scss */
+/* line 42, ../sass/module/_team.scss */
 .profile .img-box:after, .img-box ul, .img-box ul li {
-  -webkit-transition: all 0.5s ease-in-out 0s;
-  -moz-transition: all 0.5s ease-in-out 0s;
-  transition: all 0.5s ease-in-out 0s;
+  -webkit-transition: all 0.2s ease-in-out 0s;
+  -moz-transition: all 0.2s ease-in-out 0s;
+  transition: all 0.2s ease-in-out 0s;
 }
 
-/* line 47, ../sass/module/_team.scss */
+/* line 45, ../sass/module/_team.scss */
 .img-box ul i {
   font-size: 20px;
   letter-spacing: 10px;
 }
 
-/* line 51, ../sass/module/_team.scss */
+/* line 49, ../sass/module/_team.scss */
 .img-box ul li {
   width: 30px;
   height: 30px;
@@ -440,46 +435,46 @@ footer .fa-send {
   display: inline-block;
 }
 
-/* line 61, ../sass/module/_team.scss */
+/* line 59, ../sass/module/_team.scss */
 .img-box a {
   color: #fff;
 }
 
-/* line 64, ../sass/module/_team.scss */
+/* line 62, ../sass/module/_team.scss */
 .img-box:hover:after {
   opacity: 1;
 }
 
-/* line 67, ../sass/module/_team.scss */
+/* line 65, ../sass/module/_team.scss */
 .img-box:hover ul {
   opacity: 1;
 }
 
-/* line 70, ../sass/module/_team.scss */
+/* line 68, ../sass/module/_team.scss */
 .img-box ul a {
   -webkit-transition: all 0.3s ease-in-out 0s;
   -moz-transition: all 0.3s ease-in-out 0s;
   transition: all 0.3s ease-in-out 0s;
 }
 
-/* line 73, ../sass/module/_team.scss */
+/* line 71, ../sass/module/_team.scss */
 .img-box a:hover li {
   border-color: #fff;
   color: #f58a20;
 }
 
-/* line 77, ../sass/module/_team.scss */
+/* line 75, ../sass/module/_team.scss */
 .profile a {
   color: #ff9800;
 }
 
-/* line 80, ../sass/module/_team.scss */
+/* line 78, ../sass/module/_team.scss */
 .profile a:hover {
   text-decoration: none;
   color: #ff9800;
 }
 
-/* line 84, ../sass/module/_team.scss */
+/* line 82, ../sass/module/_team.scss */
 .profile i.red {
   color: #ff9800;
 }
