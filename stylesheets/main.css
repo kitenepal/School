@@ -1,16 +1,17 @@
 @import url("https://fonts.googleapis.com/css?family=Raleway");
-/* line 2, ../sass/base/_base.scss */
+@import url("https://fonts.googleapis.com/css?family=Bree+Serif");
+/* line 4, ../sass/base/_base.scss */
 * {
   font-family: Raleway;
 }
 
-/* line 5, ../sass/base/_base.scss */
+/* line 7, ../sass/base/_base.scss */
 body {
   background-color: #ffffff;
   background-image: url("https://www.transparenttextures.com/patterns/black-thread-light.png");
 }
 
-/* line 12, ../sass/base/_base.scss */
+/* line 14, ../sass/base/_base.scss */
 .primary_btn {
   background-color: #222;
   border: 2px solid #ff9800;
@@ -20,23 +21,24 @@ body {
   font-weight: bold;
   margin: 20px 0;
 }
-/* line 20, ../sass/base/_base.scss */
+/* line 22, ../sass/base/_base.scss */
 .primary_btn:hover {
   background-color: #ff9800;
   border-color: #222;
   color: #222;
 }
 
-/* line 28, ../sass/base/_base.scss */
+/* line 30, ../sass/base/_base.scss */
 .heading-title {
   color: #222;
   font-weight: bold;
   text-transform: uppercase;
   text-decoration: underline;
   padding: 10px 0;
+  font-family: 'Bree Serif', serif;
 }
 
-/* line 37, ../sass/base/_base.scss */
+/* line 40, ../sass/base/_base.scss */
 .section-padding {
   padding: 40px 0;
 }
