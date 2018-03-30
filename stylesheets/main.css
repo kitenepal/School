@@ -7,15 +7,15 @@
 /* line 8, ../sass/base/_base.scss */
 .primary_btn {
   background-color: #222;
-  border: 2px solid #FFD700;
-  color: #FFD700;
+  border: 2px solid #ff9800;
+  color: #ff9800;
   transition: 0.2s;
   text-transform: uppercase;
   font-weight: bold;
 }
 /* line 15, ../sass/base/_base.scss */
 .primary_btn:hover {
-  background-color: #FFD700;
+  background-color: #ff9800;
   border-color: #222;
   color: #222;
 }
@@ -28,10 +28,15 @@
   text-decoration: underline;
 }
 
+/* line 31, ../sass/base/_base.scss */
+.section-padding {
+  padding: 40px 0;
+}
+
 /* line 1, ../sass/module/_header.scss */
 .md--topbar {
   background: #222;
-  color: #FFD700;
+  color: #ff9800;
   padding: 7px;
 }
 /* line 5, ../sass/module/_header.scss */
@@ -49,7 +54,7 @@
   -moz-border-radius: 0px;
   -ms-border-radius: 0px;
   border-radius: 0px;
-  background: #FFD700;
+  background: #ff9800;
   color: #222;
   margin: 0px;
 }
@@ -171,8 +176,8 @@
   -moz-border-radius: 5px;
   -ms-border-radius: 5px;
   border-radius: 5px;
-  border-color: #FFD700;
-  color: #FFD700;
+  border-color: #ff9800;
+  color: #ff9800;
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
   transition: all 0.3s ease;
@@ -191,22 +196,17 @@
 
 /* line 1, ../sass/module/_about.scss */
 .about {
-  background: #FFD700;
-  padding-top: 10px;
+  background: #ff9800;
 }
-/* line 4, ../sass/module/_about.scss */
+/* line 3, ../sass/module/_about.scss */
 .about p {
   font-size: 1.2em;
   font-weight: bold;
 }
-/* line 8, ../sass/module/_about.scss */
+/* line 7, ../sass/module/_about.scss */
 .about .custom-btn {
   border-color: #000;
   color: #000;
-}
-/* line 12, ../sass/module/_about.scss */
-.about .img-responsive {
-  margin: 10px 0px;
 }
 
 /* line 1, ../sass/module/_activities.scss */
@@ -219,7 +219,7 @@
 
 /* line 7, ../sass/module/_activities.scss */
 .nav-tabs {
-  border-bottom: 1px solid #FFD700;
+  border-bottom: 1px solid #ff9800;
 }
 /* line 9, ../sass/module/_activities.scss */
 .nav-tabs a {
@@ -228,15 +228,15 @@
 
 /* line 13, ../sass/module/_activities.scss */
 .nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover {
-  background-color: #FFD700;
-  border-color: #FFD700;
+  background-color: #ff9800;
+  border-color: #ff9800;
   color: #fff;
 }
 
 /* line 19, ../sass/module/_activities.scss */
 .nav > li > a:focus, .nav > li > a:hover {
-  background-color: #FFD700;
-  border-color: #FFD700;
+  background-color: #ff9800;
+  border-color: #ff9800;
 }
 
 /* line 25, ../sass/module/_activities.scss */
@@ -277,7 +277,7 @@ footer .back-cover {
 }
 /* line 6, ../sass/module/_footer.scss */
 footer h3 {
-  color: #FFD700;
+  color: #ff9800;
 }
 /* line 9, ../sass/module/_footer.scss */
 footer ul, footer ol {
@@ -300,7 +300,7 @@ footer .container > .row > div:nth-of-type(4) {
 }
 /* line 24, ../sass/module/_footer.scss */
 footer .copyright {
-  background: #FFD700;
+  background: #ff9800;
   padding: 6px;
 }
 /* line 28, ../sass/module/_footer.scss */
@@ -308,7 +308,7 @@ footer .custom-input {
   width: 220px;
   border: none;
   background: none;
-  border-bottom: 1px solid #FFD700;
+  border-bottom: 1px solid #ff9800;
   color: #fff;
   -webkit-transition: 1s;
   -moz-transition: 1s;
@@ -419,7 +419,7 @@ footer .fa-send {
   width: 30px;
   height: 30px;
   text-align: center;
-  border: 1px solid #FFD700;
+  border: 1px solid #ff9800;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
@@ -459,28 +459,22 @@ footer .fa-send {
 
 /* line 77, ../sass/module/_team.scss */
 .profile a {
-  color: #FFD700;
+  color: #ff9800;
 }
 
 /* line 80, ../sass/module/_team.scss */
 .profile a:hover {
   text-decoration: none;
-  color: #FFD700;
+  color: #ff9800;
 }
 
 /* line 84, ../sass/module/_team.scss */
 .profile i.red {
-  color: #FFD700;
-}
-
-/* line 1, ../sass/module/_gallery.scss */
-.gallery {
-  padding-top: 10px;
-  padding-bottom: 15px;
+  color: #ff9800;
 }
 
 @media screen and (max-width: 768px) {
-  /* line 7, ../sass/module/_gallery.scss */
+  /* line 6, ../sass/module/_gallery.scss */
   .img-responsive {
     margin: 0px auto;
     display: block;
@@ -495,7 +489,7 @@ footer .fa-send {
   left: 0;
   height: 150px;
   width: 100%;
-  background-color: #FFD700;
+  background-color: #ff9800;
   border-top: 1px solid #222;
 }
 /* line 11, ../sass/module/_floating.scss */
@@ -557,7 +551,7 @@ footer .fa-send {
 }
 /* line 55, ../sass/module/_floating.scss */
 .three-order label:first-child {
-  background-color: #FFD700;
+  background-color: #ff9800;
 }
 /* line 57, ../sass/module/_floating.scss */
 .three-order label:first-child .event-info {
@@ -595,7 +589,7 @@ footer .fa-send {
 }
 /* line 95, ../sass/module/_floating.scss */
 .three-order label:last-child {
-  background-color: #FFD700;
+  background-color: #ff9800;
 }
 /* line 97, ../sass/module/_floating.scss */
 .three-order label:last-child .event-info {

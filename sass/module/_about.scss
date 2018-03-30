@@ -1,6 +1,5 @@
 .about{
 	background: $primary-color;
-	padding-top: $scroll-space;
 	p{
 		font-size: 1.2em;
 		font-weight: bold;
@@ -8,8 +7,5 @@
 	.custom-btn{
 		border-color: #000;
     color: #000;
-	}
-	.img-responsive{
-		margin: 10px 0px;
 	}
 }
