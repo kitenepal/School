@@ -11,7 +11,13 @@ body {
   background-image: url("https://www.transparenttextures.com/patterns/black-thread-light.png");
 }
 
-/* line 14, ../sass/base/_base.scss */
+/* line 13, ../sass/base/_base.scss */
+a:hover, a:focus, a:active {
+  text-decoration: none;
+  outline: none;
+}
+
+/* line 20, ../sass/base/_base.scss */
 .primary_btn {
   background-color: #222;
   border: 2px solid #ff9800;
@@ -21,14 +27,14 @@ body {
   font-weight: bold;
   margin: 20px 0;
 }
-/* line 22, ../sass/base/_base.scss */
+/* line 28, ../sass/base/_base.scss */
 .primary_btn:hover {
   background-color: #ff9800;
   border-color: #222;
   color: #222;
 }
 
-/* line 30, ../sass/base/_base.scss */
+/* line 36, ../sass/base/_base.scss */
 .heading-title {
   color: #222;
   font-weight: bold;
@@ -38,14 +44,9 @@ body {
   font-family: 'Bree Serif', serif;
 }
 
-/* line 40, ../sass/base/_base.scss */
+/* line 46, ../sass/base/_base.scss */
 .section-padding {
   padding: 40px 0;
-}
-
-/* line 45, ../sass/base/_base.scss */
-a:hover {
-  text-decoration: none;
 }
 
 /* line 1, ../sass/module/_header.scss */

@@ -9,6 +9,12 @@ body{
 	background-image: url("https://www.transparenttextures.com/patterns/black-thread-light.png");
 }
 
+// link
+a:hover, a:focus, a:active
+{
+	text-decoration: none;
+	outline: none;
+}
 
 // primary_btn
 .primary_btn{
@@ -39,9 +45,4 @@ body{
 // section-padding
 .section-padding{
 	padding: $section-padding;
-}
-
-// link
-a:hover{
-	text-decoration: none;
 }
