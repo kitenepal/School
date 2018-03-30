@@ -1,19 +1,22 @@
 .activities{
 	background: url(../image/activities_illusion.png) repeat;
-	padding-top: $scroll-space;
-	padding-bottom: 15px;
 	color: #fff;
+	.heading-title{
+		color: $primary-color;
+	}
 }
 .nav-tabs {
     border-bottom: 1px solid $primary-color;
     a{
     	color: #fff;
+    	text-transform: uppercase;
+    	font-weight: bold;
     }
 }
 .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover{
 	background-color: $primary-color;
 	border-color: $primary-color;
-	color: #fff;
+	color: $secondary-color;
 }
 
 .nav>li>a:focus, .nav>li>a:hover{

@@ -219,41 +219,45 @@ body {
 /* line 1, ../sass/module/_activities.scss */
 .activities {
   background: url(../image/activities_illusion.png) repeat;
-  padding-top: 10px;
-  padding-bottom: 15px;
   color: #fff;
 }
+/* line 4, ../sass/module/_activities.scss */
+.activities .heading-title {
+  color: #ff9800;
+}
 
-/* line 7, ../sass/module/_activities.scss */
+/* line 8, ../sass/module/_activities.scss */
 .nav-tabs {
   border-bottom: 1px solid #ff9800;
 }
-/* line 9, ../sass/module/_activities.scss */
+/* line 10, ../sass/module/_activities.scss */
 .nav-tabs a {
   color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
 }
 
-/* line 13, ../sass/module/_activities.scss */
+/* line 16, ../sass/module/_activities.scss */
 .nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover {
   background-color: #ff9800;
   border-color: #ff9800;
-  color: #fff;
+  color: #222;
 }
 
-/* line 19, ../sass/module/_activities.scss */
+/* line 22, ../sass/module/_activities.scss */
 .nav > li > a:focus, .nav > li > a:hover {
   background-color: #ff9800;
   border-color: #ff9800;
 }
 
-/* line 25, ../sass/module/_activities.scss */
+/* line 28, ../sass/module/_activities.scss */
 .content .content-one {
   width: 50%;
   display: inline-block;
   padding-top: 15px;
   padding-right: 10px;
 }
-/* line 31, ../sass/module/_activities.scss */
+/* line 34, ../sass/module/_activities.scss */
 .content .content-two {
   width: 50%;
   float: right;
@@ -262,17 +266,17 @@ body {
 }
 
 @media screen and (max-width: 768px) {
-  /* line 39, ../sass/module/_activities.scss */
+  /* line 42, ../sass/module/_activities.scss */
   .tab-content {
     padding-bottom: 15px;
   }
 }
 @media screen and (max-width: 421px) {
-  /* line 45, ../sass/module/_activities.scss */
+  /* line 48, ../sass/module/_activities.scss */
   .content p {
     font-size: 0.9em;
   }
-  /* line 48, ../sass/module/_activities.scss */
+  /* line 51, ../sass/module/_activities.scss */
   .content .custom-btn {
     padding: 1px 10px;
   }
