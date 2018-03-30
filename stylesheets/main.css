@@ -873,3 +873,8 @@ footer .fa-send {
 .up_comming hr {
   border-color: #222;
 }
+
+/* line 1, ../sass/module/pages/_detail.scss */
+.other-item {
+  padding: 10px 0;
+}
