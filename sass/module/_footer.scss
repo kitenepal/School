@@ -5,7 +5,8 @@ footer{
 		background-color: $secondary-color;
 	}
 	h3{
-		color: $primary-color;		
+		color: $primary-color;
+		text-transform: uppercase;
 	}
 	ul,ol{
 		list-style: none;
@@ -14,6 +15,31 @@ footer{
 		color: #fff;
 		a{
 			color: #fff;
+			transition: 0.2s;
+			font-weight: bold;
+			&:hover{
+				text-decoration: none;
+				color: $primary-color;
+				border-left: 2px solid $primary-color;
+				padding-left: 5px;
+			}
+		}
+	}
+	.social-media{
+		.facebook:hover{
+			color: #3b5998;
+			border-color: #3b5998;
+			font-weight: bold;
+		}
+		.twitter:hover{
+			color: #1da1f2;
+			border-color: #1da1f2;
+			font-weight: bold;
+		}
+		.google:hover{
+			color: #db4437;
+			border-color: #db4437;
+			font-weight: bold;
 		}
 	}
 	p{
@@ -34,7 +60,7 @@ footer{
 		color: #fff;
 		@include transition(1s);
 		&::placeholder {
-    	color: #c1c1c1;
+    	color: $primary-color;
 		}
 		&:focus{
 			outline: none;
@@ -48,9 +74,9 @@ footer{
 	}
 }
 
-@media screen and (max-width: 450px) {
-	footer .back-cover{
-		background: url(../image/contact.jpg) -300px 0px;
-		background-size: auto;
-	}
-}
+// @media screen and (max-width: 450px) {
+// 	footer .back-cover{
+// 		background: url(../image/contact.jpg) -300px 0px;
+// 		background-size: auto;
+// 	}
+// }

@@ -289,32 +289,60 @@ footer .back-cover {
 /* line 7, ../sass/module/_footer.scss */
 footer h3 {
   color: #ff9800;
+  text-transform: uppercase;
 }
-/* line 10, ../sass/module/_footer.scss */
+/* line 11, ../sass/module/_footer.scss */
 footer ul, footer ol {
   list-style: none;
   margin: 0px;
   padding: 0px;
   color: #fff;
 }
-/* line 15, ../sass/module/_footer.scss */
+/* line 16, ../sass/module/_footer.scss */
 footer ul a, footer ol a {
   color: #fff;
+  transition: 0.2s;
+  font-weight: bold;
 }
-/* line 19, ../sass/module/_footer.scss */
+/* line 20, ../sass/module/_footer.scss */
+footer ul a:hover, footer ol a:hover {
+  text-decoration: none;
+  color: #ff9800;
+  border-left: 2px solid #ff9800;
+  padding-left: 5px;
+}
+/* line 29, ../sass/module/_footer.scss */
+footer .social-media .facebook:hover {
+  color: #3b5998;
+  border-color: #3b5998;
+  font-weight: bold;
+}
+/* line 34, ../sass/module/_footer.scss */
+footer .social-media .twitter:hover {
+  color: #1da1f2;
+  border-color: #1da1f2;
+  font-weight: bold;
+}
+/* line 39, ../sass/module/_footer.scss */
+footer .social-media .google:hover {
+  color: #db4437;
+  border-color: #db4437;
+  font-weight: bold;
+}
+/* line 45, ../sass/module/_footer.scss */
 footer p {
   color: #fff;
 }
-/* line 22, ../sass/module/_footer.scss */
+/* line 48, ../sass/module/_footer.scss */
 footer .container > .row > div:nth-of-type(4) {
   padding-bottom: 50px;
 }
-/* line 25, ../sass/module/_footer.scss */
+/* line 51, ../sass/module/_footer.scss */
 footer .copyright {
   background: #ff9800;
   padding: 6px;
 }
-/* line 29, ../sass/module/_footer.scss */
+/* line 55, ../sass/module/_footer.scss */
 footer .custom-input {
   width: 220px;
   border: none;
@@ -325,29 +353,22 @@ footer .custom-input {
   -moz-transition: 1s;
   transition: 1s;
 }
-/* line 36, ../sass/module/_footer.scss */
+/* line 62, ../sass/module/_footer.scss */
 footer .custom-input::placeholder {
-  color: #c1c1c1;
+  color: #ff9800;
 }
-/* line 39, ../sass/module/_footer.scss */
+/* line 65, ../sass/module/_footer.scss */
 footer .custom-input:focus {
   outline: none;
   border-bottom: 2px solid #f58a20;
 }
-/* line 44, ../sass/module/_footer.scss */
+/* line 70, ../sass/module/_footer.scss */
 footer .fa-send {
   color: #fff;
   margin-left: -20px;
   cursor: pointer;
 }
 
-@media screen and (max-width: 450px) {
-  /* line 52, ../sass/module/_footer.scss */
-  footer .back-cover {
-    background: url(../image/contact.jpg) -300px 0px;
-    background-size: auto;
-  }
-}
 /* line 1, ../sass/module/_contact.scss */
 .contact {
   background: #ddd;
